@@ -712,7 +712,7 @@ link:focus,
     transition: 0s ease; }
 
 /* /success story */
-/* events */
+/* aktualnoscis */
 .card-date {
   position: absolute;
   background: #7FBA27;
@@ -726,7 +726,7 @@ link:focus,
   .card-date span {
     font-size: 40px; }
 
-/* /events */
+/* /aktualnoscis */
 /* teacher */
 .teacher-info {
   width: 70%;
