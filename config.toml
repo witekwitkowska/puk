@@ -45,29 +45,15 @@ link = "plugins/google-map/gmap.js"
 
 # main menu
 [[menu.main]]
-name = "About"
-URL = "about"
 weight = 1
-
-[[menu.main]]
-name = "course"
-URL = "course"
-weight = 2
-
-[[menu.main]]
-weight = 3
 name = "Pages"
 hasChildren = true
 
-  [[menu.main]]
-  parent = "Pages"
-  name = "teacher"
-  URL = "teacher"
 
   [[menu.main]]
   parent = "Pages"
-  name = "notice"
-  URL = "notice"
+  name = "course"
+  URL = "course"
 
   [[menu.main]]
   parent = "Pages"
@@ -76,23 +62,23 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Pages"
-  name = "scholarship"
-  URL = "scholarship"
+  name = "pobieranie"
+  URL = "pobieranie"
 
   [[menu.main]]
   parent = "Pages"
   name = "research"
   URL = "research"
-  
+
 [[menu.main]]
-name = "blog"
-URL = "blog"
-weight = 4
-  
+name = "zamowienia-publiczne"
+URL = "zamowienia-publiczne"
+weight = 2
+
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 5
+weight = 3
 
 
 # footer menu
@@ -102,16 +88,16 @@ name = "teacher"
 URL = "teacher"
 
 [[menu.footer]]
-name = "notice"
-URL = "notice"
+name = "zamowienia-publiczne"
+URL = "zamowienia-publiczne"
 
 [[menu.footer]]
 name = "event"
 URL = "event"
 
 [[menu.footer]]
-name = "scholarship"
-URL = "scholarship"
+name = "pobieranie"
+URL = "pobieranie"
 
 [[menu.footer]]
 name = "research"
@@ -121,19 +107,20 @@ URL = "research"
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+logo2 = "images/bip-logo.jpg"
 # Meta data
 description = "This is meta description"
 author = "Kasia"
 # contact info
-address = "1 Maja 6/7"
-mobile = "+211234565523"
-email = "info@educenter.com"
+address = "UL. TARGOWA 5, 78-449 BORNE SULINOWO"
+mobile = "tel. 94 37 32 900, fax. 94 37 32 910"
+email = "biuro@puk-bornesulinowo.pl"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
-top_header = true
+top_header = false
 
 # Preloader
 [params.preloader]
@@ -187,17 +174,17 @@ expire_days = 2
 #link = "#"
 
 
-#################################### English language #####################################
-#[Languages.en]
-#languageName = "En"
-#languageCode = "en-us"
-#contentDir = "content/english"
-#weight = 1
-#home = "Home"
-## copyright
-#copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-#
-#
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Strona Główna"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+
+
 #################################### French language #####################################
 #[Languages.fr]
 #languageName = "Fr"
