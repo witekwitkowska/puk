@@ -66,11 +66,11 @@ about:
     link : "about"
 
 
-############################# Course ################################
-course:
+############################# harmonogram ################################
+harmonogram:
   enable : false
-  title : "Our Course"
-  # course item comes from "content/**/course" folder.
+  title : "Our harmonogram"
+  # harmonogram item comes from "content/**/harmonogram" folder.
 
 ########################## Call to action ############################
 cta:
@@ -97,11 +97,11 @@ success_story:
   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
 
 
-############################# event ################################
-event:
+############################# aktualnosci ################################
+aktualnosci:
   enable : true
   title : "Aktualności"
-  # event item comes from "content/**/event" folder.
+  # aktualnosci item comes from "content/**/aktualnosci" folder.
 
 
 ########################### funfacts ############################
@@ -113,7 +113,7 @@ funfacts:
       count : "60"
 
     # funfact item loop
-    - name : "COURSES"
+    - name : "harmonogram"
       count : "50"
 
     # funfact item loop

@@ -10,11 +10,14 @@ VERSION:	Versoin Number
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 Our cou
+html {
+  font-family: "Poppins", sans-serif; }
+
 body {
   line-height: 1.2;
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 16px;
   color: #5c5c77; }
 
 p, .paragraph {
@@ -60,6 +63,13 @@ h6, .h6 {
   @media (max-width: 575px) {
     h6, .h6 {
       font-size: 14px; } }
+.bigger-font {
+  text-align: center;
+  position: relative; }
+
+.bigger-font p {
+  font-size: 20px; }
+
 /* Button style */
 .btn {
   font-size: 16px;
@@ -250,7 +260,8 @@ a h4:hover {
   color: #00963F !important; }
 
 .text-color {
-  color: #5c5c77; }
+  color: #fff;
+  opacity: 0.8; }
 
 .text-light {
   color: #8585a4 !important; }
@@ -347,8 +358,11 @@ a h4:hover {
       top: 5px; }
 
 textarea.form-control {
-  height: 200px;
+  height: 150px !important;
   padding: 20px; }
+
+.flexy {
+  display: flex; }
 
 #map_canvas {
   height: 500px; }
@@ -436,6 +450,27 @@ textarea.form-control {
   width: 85px;
   object-fit: cover; }
 
+.table-inner-borders {
+  border-collapse: collapse;
+  border-style: hidden; }
+
+.table-inner-borders td {
+  border: 1px solid black; }
+
+.download::before {
+  content: "\e65f";
+  font-family: "themify";
+  left: 0;
+  top: 1px;
+  margin-right: 7px; }
+
+.zwin::before {
+  content: "\e65c";
+  font-family: "themify";
+  left: 0;
+  top: 1px;
+  margin-right: 7px; }
+
 .top-header {
   font-size: 12px;
   transition: transform .2s ease;
@@ -446,7 +481,7 @@ textarea.form-control {
     transform-origin: top; }
 
 .navigation {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.7) 50%, #00963F 50%);
+  background: linear-gradient(to right, white 50%, #00963F 50%);
   backdrop-filter: blur(5px);
   transition: .2s ease; }
   @media (max-width: 991px) {
@@ -457,12 +492,12 @@ textarea.form-control {
     background: #00963F; } }
 
 .navbar-nav {
-  padding-left: 50px;
+  padding-left: 0px;
   background: #00963F; }
   @media (max-width: 991px) {
     .navbar-nav {
-      padding-left: 0;
-      background: #00963F; } }
+      background: #00963F;
+      padding-left: 0; } }
 .nav-bg {
   background-color: #fff; }
 
@@ -610,6 +645,15 @@ link:focus,
       border: 0;
       outline: 0; }
 
+/* Logo */
+.logo-size {
+  width: 40%;
+  margin-left: -15px; }
+
+@media (max-width: 500px) {
+  .logo-size {
+    width: 50%; } }
+
 /* banner feature */
 .feature-icon {
   font-size: 50px;
@@ -640,7 +684,7 @@ link:focus,
       .feature-blocks h3 {
         font-size: 25px; } }
 /* /banner feature */
-/* course */
+/* harmonogram */
 .card-btn {
   font-size: 12px;
   padding: 5px 10px; }
@@ -648,12 +692,11 @@ link:focus,
 .flex-basis-33 {
   flex-basis: 33.3333%; }
 
-.hover-shadow {
-  transition: .3s ease; }
-  .hover-shadow:hover {
-    box-shadow: 0px 4px 25px 0px rgba(27, 39, 71, 0.15); }
+.hover-shadow:hover {
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+  transition: all 0.3s ease; }
 
-/* /course */
+/* /harmonogram */
 /* success story */
 .success-video {
   min-height: 300px; }
@@ -735,11 +778,15 @@ link:focus,
 
 /* /teacher */
 /* footer */
+.move-below {
+  z-index: -2;
+  position: relative; }
+
 .newsletter {
   background-image: linear-gradient(to right, transparent 50%, #00963F 50%);
   margin-bottom: -170px;
   position: relative;
-  z-index: 1; }
+  z-index: -1; }
   .newsletter-block {
     padding-left: 50px; }
     @media (max-width: 575px) {
@@ -748,13 +795,10 @@ link:focus,
 .input-wrapper {
   position: relative; }
   .input-wrapper button {
-    position: absolute;
-    right: 25px;
-    top: 50%;
-    transform: translateY(-50%); }
+    float: right; }
 
 .form-control {
-  height: 60px;
+  height: 40px;
   background: #fff;
   border-radius: 0;
   padding-left: 25px; }
@@ -763,18 +807,31 @@ link:focus,
     box-shadow: none; }
 
 .newsletter-block .form-control {
-  height: 90px; }
+  height: 70px; }
 
 .bg-footer {
   background-color: #182b45; }
 
 .logo-footer {
-  margin-top: -20px;
+  margin-top: -70px;
+  margin-left: -15px;
   display: inline-block; }
 
 .footer {
   border-color: #494a43 !important;
   padding-top: 275px; }
+
+@media (max-width: 500px) {
+  .footer {
+    text-align: center; } }
+
+ul.max-3-elems {
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px; }
 
 /* /footer */
 .filter-controls li {
@@ -794,3 +851,399 @@ link:focus,
   .tag-list a:hover {
     background-color: #00963F;
     color: #fff; }
+
+.dashboard-cards {
+  position: relative;
+  padding-bottom: 50px;
+  margin: 0 !important; }
+
+.filter-item {
+  all: unset; }
+
+.dashboard-cards .card {
+  background: #ffffff;
+  display: inline-block;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  z-index: 20;
+  padding: 0 !important;
+  margin: 5px 5px 10px 5px;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s 0s ease-in;
+  z-index: 1;
+  width: calc(33.33333333% - 10px);
+  cursor: pointer;
+  transition: all 0.3s ease; }
+
+.dashboard-cards .card:hover {
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+  transition: all 0.3s ease; }
+
+.dashboard-cards .card .card-title {
+  background: #ffffff;
+  padding: 20px 15px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between; }
+
+@media (max-width: 500px) {
+  .dashboard-cards .card .card-title {
+    flex-direction: column;
+    justify-content: left; } }
+
+.dashboard-cards .card .card-title h4 {
+  margin-bottom: 0 !important; }
+
+.dashboard-cards .card .card-title h2 {
+  font-size: 24px;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 0; }
+
+.dashboard-cards .card .card-title h2 small {
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+  letter-spacing: -0.025em; }
+
+.dashboard-cards .card .card-description {
+  position: relative;
+  font-size: 14px;
+  padding: 10px 15px 0 15px; }
+
+.dashboard-cards .card .card-actions {
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+  padding: 10px;
+  text-align: center; }
+
+.dashboard-cards .card .card-flap {
+  background: #d9d9d9;
+  position: absolute;
+  width: 100%;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg); }
+
+.dashboard-cards .card .flap1 {
+  transition: all 0.3s 0.3s ease-out;
+  z-index: -1; }
+
+.dashboard-cards .card .flap2 {
+  transition: all 0.3s 0s ease-out;
+  z-index: -2; }
+
+.dashboard-cards.showing .card {
+  cursor: pointer;
+  opacity: 0.6;
+  -webkit-transform: scale(0.88);
+  transform: scale(0.88); }
+
+.dashboard-cards .no-touch .dashboard-cards.showing .card:hover {
+  opacity: 0.94;
+  -webkit-transform: scale(0.92);
+  transform: scale(0.92); }
+
+.dashboard-cards .card.d-card-show {
+  opacity: 1 !important;
+  -webkit-transform: scale(1) !important;
+  transform: scale(1) !important; }
+
+.dashboard-cards .card.d-card-show .card-flap {
+  background: #ffffff;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg); }
+
+.dashboard-cards .card.d-card-show .flap1 {
+  transition: all 0.3s 0s ease-out; }
+
+.dashboard-cards .card.d-card-show .flap2 {
+  transition: all 0.3s 0.2s ease-out; }
+
+.dashboard-cards .card .task-count {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 22px;
+  right: 10px;
+  background: #ecf0f1;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 100%;
+  color: #333333;
+  font-weight: 600;
+  transition: all .2s ease; }
+
+.dashboard-cards .task-list {
+  padding: 0 !important; }
+
+.dashboard-cards .task-list li {
+  padding: 10px 0;
+  padding-left: 10px;
+  margin: 3px 0;
+  list-style-type: none;
+  border-left: 3px solid #7FBA27;
+  transition: all .2s ease; }
+
+.dashboard-cards .task-list li:hover {
+  background: #ecf0f1;
+  transition: all .2s ease; }
+
+.dashboard-cards .task-list li span {
+  float: right;
+  color: #ff3a3a;
+  margin-right: 5px; }
+
+.dashboard-cards.showing .card.d-card-show .task-count {
+  color: #ffffff;
+  background: #ff3a3a;
+  transition: all .2s ease; }
+
+.dashboard-cards .card-actions .btn {
+  color: #333; }
+
+.dashboard-cards .card-actions .btn:hover {
+  color: #ff3a3a; }
+
+@media (max-width: 750px) {
+  .dashboard-cards .card {
+    margin-top: 10px;
+    width: 100%; } }
+
+.click-only {
+  background: #ffffff;
+  padding: 0px 20px 20px 20px;
+  position: relative;
+  z-index: 0;
+  text-align: right; }
+
+/* Default Theme */
+/* General style */
+.jsCalendar * {
+  margin: 0;
+  padding: 0; }
+
+.jsCalendar table,
+.jsCalendar table th,
+.jsCalendar table td {
+  border: 0;
+  box-sizing: content-box;
+  display: block;
+  margin: auto; }
+
+/* Blue default */
+.jsCalendar table {
+  color: #000000;
+  margin: auto;
+  display: block; }
+
+.jsCalendar tr {
+  line-height: 0; }
+
+.jsCalendar thead .jsCalendar-title {
+  height: 40px;
+  line-height: 40px; }
+
+.jsCalendar thead .jsCalendar-title-left {
+  float: left; }
+
+.jsCalendar thead .jsCalendar-title-right {
+  float: right; }
+
+.jsCalendar thead .jsCalendar-nav-left,
+.jsCalendar thead .jsCalendar-nav-right {
+  border-radius: 10px;
+  color: #7FBA27;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  margin: 10px 8px;
+  text-align: center;
+  transition: color 0.2s, background-color 0.2s;
+  width: 20px; }
+
+.jsCalendar thead .jsCalendar-nav-left:hover,
+.jsCalendar thead .jsCalendar-nav-right:hover {
+  background-color: #E2E2E2;
+  color: #000000; }
+
+.jsCalendar thead .jsCalendar-nav-left {
+  float: left; }
+
+.jsCalendar thead .jsCalendar-nav-right {
+  float: right; }
+
+.jsCalendar thead .jsCalendar-title-name {
+  cursor: default;
+  float: left;
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 0 20px; }
+
+.jsCalendar thead .jsCalendar-nav-left:after {
+  content: "<"; }
+
+.jsCalendar thead .jsCalendar-nav-right:after {
+  content: ">"; }
+
+.jsCalendar thead .jsCalendar-week-days th {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2); }
+
+.jsCalendar thead .jsCalendar-week-days th,
+.jsCalendar tbody td {
+  border-radius: 18px;
+  cursor: default;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: lighter;
+  height: 36px;
+  line-height: 36px;
+  margin: 4px 8px;
+  padding: 2px 2px;
+  text-align: center;
+  transition: color 0.1s, background-color 0.2s;
+  width: 36px; }
+
+@media (max-width: 500px) {
+  .jsCalendar thead .jsCalendar-week-days th,
+  .jsCalendar tbody td {
+    font-size: 15px;
+    width: 28px; } }
+
+.jsCalendar tbody td.jsCalendar-selected {
+  background-color: #FFFFFF;
+  border: 2px solid #E6E6E6;
+  height: 32px;
+  line-height: 32px;
+  width: 32px; }
+
+.jsCalendar tbody td.jsCalendar-current {
+  border: 1px solid #1a1a37;
+  border-radius: 0px; }
+
+.jsCalendar tbody td.jsCalendar-previous,
+.jsCalendar tbody td.jsCalendar-next {
+  color: #CACACA; }
+
+.jsCalendar tbody td.jsCalendar-previous:hover,
+.jsCalendar tbody td.jsCalendar-next:hover {
+  color: #FFFFFF; }
+
+.jsCalendar thead {
+  display: block;
+  margin: 4px 4px 0 4px; }
+
+.jsCalendar tbody {
+  display: block;
+  margin: 0 4px 4px 4px; }
+
+.jsCalendar ::-moz-selection {
+  background: #83D8FF; }
+
+.jsCalendar ::selection {
+  background: #83D8FF; }
+
+/* Material Theme */
+/* Blue default */
+.jsCalendar.material-theme table {
+  border-radius: 0;
+  width: fit-content; }
+
+.jsCalendar.material-theme thead {
+  background-color: #1a1a37;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 4px 4px 0 4px; }
+
+.jsCalendar.material-theme thead .jsCalendar-title {
+  display: block;
+  position: relative; }
+
+.jsCalendar.material-theme thead .jsCalendar-title-name {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: #FFFFFF;
+  font-size: 16px;
+  left: 15px;
+  position: absolute;
+  right: 15px;
+  text-align: center; }
+
+.jsCalendar.material-theme thead .jsCalendar-title-left,
+.jsCalendar.material-theme thead .jsCalendar-title-right {
+  position: absolute;
+  z-index: 1; }
+
+.jsCalendar.material-theme thead .jsCalendar-nav-left,
+.jsCalendar.material-theme thead .jsCalendar-nav-right {
+  color: #FFFFFF; }
+
+.jsCalendar.material-theme thead .jsCalendar-title-right {
+  right: 0; }
+
+.jsCalendar.material-theme thead .jsCalendar-week-days th {
+  font-size: 14px;
+  text-shadow: none; }
+
+/* Green */
+.jsCalendar.material-theme.green thead {
+  background-color: #7FB800; }
+
+.jsCalendar.material-theme.green thead .jsCalendar-nav-left:hover,
+.jsCalendar.material-theme.green thead .jsCalendar-nav-right:hover {
+  background-color: #639000; }
+
+/*
+ * jsCalendar extension
+ * EventMarks v0.0.1-beta
+ *
+ * Authors: MyMaloks, GramThanos
+ */
+.jsCalendar tbody td div.jsCalendar-eventmarks {
+  position: relative;
+  display: flex;
+  bottom: 9px;
+  margin: 0px;
+  padding: 0px;
+  height: 6px; }
+
+.jsCalendar tbody td div.jsCalendar-eventmarks .jsCalendar-eventmark {
+  width: 8px;
+  height: 8px;
+  display: inline;
+  margin: 0px 1px;
+  border-radius: 2px; }
+
+.jsCalendar tbody td div.jsCalendar-eventmarks .jsCalendar-eventmark-more {
+  font-size: 8px;
+  position: relative;
+  bottom: 16px;
+  right: -2px; }
+
+.min-height {
+  min-height: 350px; }
+
+.legend {
+  padding: 20px 20px;
+  font-size: 15px;
+  justify-content: flex-end;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  bottom: 9px;
+  height: 6px;
+  margin-left: 4rem;
+  margin-bottom: 15px; }
+
+.legend-marker {
+  width: 13px;
+  height: 13px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 5px;
+  border-radius: 2px; }

@@ -652,7 +652,7 @@ link:focus,
       .feature-blocks h3 {
         font-size: 25px; } }
 /* /banner feature */
-/* course */
+/* harmonogram */
 .card-btn {
   font-size: 12px;
   padding: 5px 10px; }
@@ -665,7 +665,7 @@ link:focus,
   .hover-shadow:hover {
     box-shadow: 0px 4px 25px 0px rgba(27, 39, 71, 0.15); }
 
-/* /course */
+/* /harmonogram */
 /* success story */
 .success-video {
   min-height: 300px; }
@@ -724,7 +724,7 @@ link:focus,
     transition: 0s ease; }
 
 /* /success story */
-/* events */
+/* aktualnoscis */
 .card-date {
   position: absolute;
   background: #ffbc3b;
@@ -738,7 +738,7 @@ link:focus,
   .card-date span {
     font-size: 40px; }
 
-/* /events */
+/* /aktualnoscis */
 /* teacher */
 .teacher-info {
   width: 70%;

@@ -46,8 +46,8 @@
 - id: category
   translation: Kategoria
 
-- id: related_course
-  translation: Related Course
+- id: related_harmonogram
+  translation: Related harmonogram
 
 - id: duration
   translation: czas trwania
@@ -67,11 +67,11 @@
 - id: entry_fee
   translation: entry fee
 
-- id: event_speaker
-  translation: Event Speakers
+- id: aktualnosci_speaker
+  translation: aktualnosci Speakers
 
-- id: more_event
-  translation: Więcej wydarzeń
+- id: wiecej_aktualnosci
+  translation: Więcej aktualności
 
 - id: join
   translation: Dołącz
@@ -85,11 +85,20 @@
 - id: links
   translation: linki
 
-- id: courses
+- id: harmonogram
   translation: Harmonogram
 
 - id: new_zamowienia-publiczne
   translation: new zamowienia-publiczne
+
+- id: energia-cieplna
+  translation: energia cieplna
+
+- id: pszok
+  translation: pszok
+
+- id: cmentarze
+  translation: cmentarze
 
 - id: call
   translation: call
@@ -112,8 +121,8 @@
 - id: About
   translation: O nas
 
-- id: course
-  translation: pobieranie
+- id: harmonogram
+  translation: harmonogram
 
 - id: Pages
   translation: Strefa Klienta
@@ -124,14 +133,20 @@
 - id: zamowienia-publiczne
   translation: zamówienia publiczne
 
-- id: event
+- id: aktualnosci
   translation: aktualności
 
-- id: pobieranie
+- id: dokumenty-do-pobrania
   translation: Dokumenty do pobrania
 
 - id: research
-  translation: Inne
+  translation: Research
+
+- id: targowisko-miejskie
+  translation: Targowisko miejskie
+
+#- id: research
+#  translation: Research
 
 - id: blog
   translation: blog

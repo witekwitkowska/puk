@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "http://examplesite.org"
-title = "Przedsiębiorstwo usług komunalnych"
+title = "Przedsiębiorstwo usług komunalnych SPÓŁKA Z O.O."
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
@@ -43,7 +43,7 @@ link = "plugins/google-map/gmap.js"
 
 ############################## navigation ###############################
 
-# main menu
+#  main menu
 [[menu.main]]
 weight = 1
 name = "Pages"
@@ -52,23 +52,39 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Pages"
-  name = "course"
-  URL = "course"
+  name = "harmonogram"
+  URL = "harmonogram"
 
   [[menu.main]]
   parent = "Pages"
-  name = "event"
-  URL = "event"
+  name = "aktualnosci"
+  URL = "aktualnosci"
 
   [[menu.main]]
   parent = "Pages"
-  name = "pobieranie"
-  URL = "pobieranie"
+  name = "dokumenty-do-pobrania"
+  URL = "dokumenty-do-pobrania"
 
   [[menu.main]]
   parent = "Pages"
-  name = "research"
-  URL = "research"
+  name = "targowisko-miejskie"
+  URL = "targowisko-miejskie"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "energia-cieplna"
+  URL = "energia-cieplna"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "cmentarze"
+  URL = "cmentarze"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "pszok"
+  URL = "pszok"
+
 
 [[menu.main]]
 name = "zamowienia-publiczne"
@@ -76,44 +92,50 @@ URL = "zamowienia-publiczne"
 weight = 2
 
 [[menu.main]]
-name = "Contact"
-URL = "contact"
+name = "contact"
+URL = "kontakt"
 weight = 3
 
 
 # footer menu
 
 [[menu.footer]]
-name = "teacher"
-URL = "teacher"
+name = "harmonogram"
+URL = "harmonogram"
 
 [[menu.footer]]
-name = "zamowienia-publiczne"
-URL = "zamowienia-publiczne"
+name = "aktualnosci"
+URL = "aktualnosci"
 
 [[menu.footer]]
-name = "event"
-URL = "event"
+name = "targowisko-miejskie"
+URL = "targowisko-miejskie"
 
 [[menu.footer]]
-name = "pobieranie"
-URL = "pobieranie"
+name = "energia-cieplna"
+URL = "energia-cieplna"
 
 [[menu.footer]]
-name = "research"
-URL = "research"
+name = "cmentarze"
+URL = "cmentarze"
+
+[[menu.footer]]
+name = "pszok"
+URL = "pszok"
 
 
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
-logo2 = "images/bip-logo.jpg"
+calendar_mock = "images/calendar-mockup.jpg"
 # Meta data
 description = "This is meta description"
 author = "Kasia"
 # contact info
-address = "UL. TARGOWA 5, 78-449 BORNE SULINOWO"
-mobile = "tel. 94 37 32 900, fax. 94 37 32 910"
+address = "ul. Targowa 5"
+address2 = "78-449 Borne Sulinowo"
+mobile = "tel. 94 37 32 900,"
+mobile2 = "fax. 94 37 32 910"
 email = "biuro@puk-bornesulinowo.pl"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
@@ -124,7 +146,7 @@ top_header = false
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
@@ -168,10 +190,10 @@ expire_days = 2
 #icon = "ti-github" # themify icon : https://themify.me/themify-icons
 #link = "#"
 #
-#[[params.social]]
-#title = "linkedin"
-#icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-#link = "#"
+[[params.social]]
+title = "bik"
+icon = "images/bip-logo.png"
+link = "http://www.bip.bornesulinowo.pl/index.php?id=69153"
 
 
 ################################### English language #####################################
@@ -182,7 +204,7 @@ contentDir = "content/english"
 weight = 1
 home = "Strona Główna"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Przedsiębiorstwo usług komunalnych"
 
 
 #################################### French language #####################################
