@@ -4,8 +4,8 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Przedsiębiorstwo usług komunalnych w Szczecinku"
-      content : "Lorem iusługet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Przedsiębiorstwo usług komunalnych w Bornem Sulinowie"
+      content : ""
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -18,7 +18,7 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "images/banner/smieciu.png"
   feature_item:
     # feature item loop
     - name : "Harmonogram"

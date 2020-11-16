@@ -2,7 +2,11 @@
 title: "Targowisko miejskie - \"Mój rynek\""
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/targowisko-miejskie.jpg"
+feature_item:
+   name : "Targowisko miejskie"
+   icon : "ti-shopping-cart-full" # icon pack : https://themify.me/themify-icons
+   content : "Handluj z tym"
 # image
 image: "images/about/about-page.jpg"
 # meta description

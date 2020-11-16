@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
+baseURL = "http://witekwitkowska.github.io"
 title = "Przedsiębiorstwo usług komunalnych SPÓŁKA Z O.O."
 theme = "educenter-hugo"
 # post pagination
@@ -138,7 +138,7 @@ mobile = "tel. 94 37 32 900,"
 mobile2 = "fax. 94 37 32 910"
 email = "biuro@puk-bornesulinowo.pl"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/mzbkvgop" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
@@ -204,7 +204,7 @@ contentDir = "content/english"
 weight = 1
 home = "Strona Główna"
 # copyright
-copyright = "Copyright &copy; 2020 Przedsiębiorstwo usług komunalnych"
+copyright = "Copyright &copy; 2020 Przedsiębiorstwo usług komunalnych w Bornem Sulinowie"
 
 
 #################################### French language #####################################

@@ -13,9 +13,8 @@ harmonogram: "Z utrudnionym dojazdem"
 Id: "rejon2-calendar"
 # calendar info
 calendar:
-
   - name : "Odpady Komunalne"
-    dates : ["2020,11,15"]
+    dates : ["2020,11,10","2020,11,25"]
     color : "#000000"
 
   - name : "Bio"
@@ -23,15 +22,15 @@ calendar:
     color : "#573f1b"
 
   - name : "Tworzywa Sztuczne, Metale"
-    dates : []
+    dates : ["2020,11,10","2020,11,25"]
     color : "#e0de36"
 
   - name : "Papier"
-    dates : []
+    dates : ["2020,11,25"]
     color : "#3258a8"
 
   - name : "Szkło"
-    dates : []
+    dates : ["2020,11,10"]
     color : "#1bbf02"
 
 ---

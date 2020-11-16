@@ -9,23 +9,23 @@ Id: "budynki-jednorodzinne-calendar"
 calendar:
 
   - name : "Odpady Komunalne"
-    dates : ["2020,11,15"]
+    dates : ["2020,11,5","2020,11,19"]
     color : "#000000"
 
   - name : "Bio"
-    dates : []
+    dates : ["2020,11,5","2020,11,12","2020,11,19","2020,11,26"]
     color : "#573f1b"
 
   - name : "Tworzywa Sztuczne, Metale"
-    dates : []
+    dates : ["2020,11,6","2020,11,20"]
     color : "#e0de36"
 
   - name : "Papier"
-    dates : []
+    dates : ["2020,11,6","2020,11,20"]
     color : "#3258a8"
 
   - name : "Szkło"
-    dates : []
+    dates : ["2020,11,6","2020,11,20"]
     color : "#1bbf02"
 
 

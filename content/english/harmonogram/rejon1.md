@@ -15,7 +15,7 @@ Id: "rejon1-calendar"
 calendar:
 
   - name : "Odpady Komunalne"
-    dates : ["2020,11,15"]
+    dates : ["2020,11,4","2020,11,18"]
     color : "#000000"
 
   - name : "Bio"
@@ -23,15 +23,15 @@ calendar:
     color : "#573f1b"
 
   - name : "Tworzywa Sztuczne, Metale"
-    dates : []
+    dates : ["2020,11,4","2020,11,18"]
     color : "#e0de36"
 
   - name : "Papier"
-    dates : []
+    dates : ["2020,11,18"]
     color : "#3258a8"
 
   - name : "Szkło"
-    dates : []
+    dates : ["2020,11,4"]
     color : "#1bbf02"
 ---
 Odpady BIO będą odbierane po telefonicznym zgłoszeniu.

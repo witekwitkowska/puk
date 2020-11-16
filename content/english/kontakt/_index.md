@@ -2,7 +2,8 @@
 title: "Kontakt"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/kontakt.jpg"
+image: "images/PUK-mapa.png"
 # meta description
 description : ""
 contacts :
