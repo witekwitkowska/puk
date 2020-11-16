@@ -1,5 +1,7 @@
 ######################## default configuration ####################
 baseURL = "http://witekwitkowska.github.io"
+relativeURLs = true
+uglyURLs = true
 title = "Przedsiębiorstwo usług komunalnych SPÓŁKA Z O.O."
 theme = "educenter-hugo"
 # post pagination
