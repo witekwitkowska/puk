@@ -494,6 +494,17 @@ textarea.form-control {
 .card-img-top {
   background-color: #00963F; }
 
+.custom-height {
+  height: 50px; }
+  @media (max-width: 991px) {
+    .custom-height {
+      height: 60px; } }
+  @media (max-width: 767px) {
+    .custom-height {
+      height: 70px; } }
+  @media (max-width: 575px) {
+    .custom-height {
+      height: 80px; } }
 .top-header {
   font-size: 12px;
   transition: transform .2s ease;
