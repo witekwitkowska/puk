@@ -807,9 +807,9 @@ link:focus,
 /* /teacher */
 /* footer */
 .funny-frame {
-  padding-left: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-left: 0.8em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
   background-color: #7FBA27; }
 
 .newsletter {

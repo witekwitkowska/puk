@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "witekwitkowska.github.io"
+baseURL = "https://witekwitkowska.github.io/"
 title = "Przedsiębiorstwo usług komunalnych SPÓŁKA Z O.O."
 theme = "educenter-hugo"
 # post pagination
