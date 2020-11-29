@@ -520,8 +520,7 @@ textarea.form-control {
   font-size: 2rem; }
 
 .navigation {
-  background: linear-gradient(to right, white 50%, #00963F 50%);
-  backdrop-filter: blur(5px);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #00963F 50%);
   transition: .2s ease; }
   @media (max-width: 991px) {
     .navigation {
@@ -541,7 +540,8 @@ textarea.form-control {
     .navbar-nav {
       background: #fff; } }
 .nav-bg {
-  background-color: #fff; }
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5px); }
 
 .nav-item {
   margin: 0 15px;

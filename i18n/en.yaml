@@ -47,7 +47,7 @@
   translation: Kategoria
 
 - id: related_harmonogram
-  translation: Related harmonogram
+  translation: Related harmonogram-odbioru-odpadów-odbioru-odpadów
 
 - id: duration
   translation: czas trwania
@@ -85,8 +85,8 @@
 - id: links
   translation: linki
 
-- id: harmonogram
-  translation: Harmonogram
+- id: harmonogram-odbioru-odpadów
+  translation: Harmonogram odbioru odpadów
 
 - id: new_zamowienia-publiczne
   translation: new zamowienia-publiczne
@@ -120,9 +120,6 @@
 
 - id: About
   translation: O nas
-
-- id: harmonogram
-  translation: harmonogram
 
 - id: Pages
   translation: Strefa Klienta

@@ -66,11 +66,11 @@ about:
     link : "about"
 
 
-############################# harmonogram ################################
+############################# harmonogram-odbioru-odpadów-odbioru-odpadów ################################
 harmonogram:
   enable : false
-  title : "Our harmonogram"
-  # harmonogram item comes from "content/**/harmonogram" folder.
+  title : "Our harmonogram-odbioru-odpadów-odbioru-odpadów"
+  # harmonogram-odbioru-odpadów-odbioru-odpadów item comes from "content/**/harmonogram-odbioru-odpadów-odbioru-odpadów" folder.
 
 ########################## Call to action ############################
 cta:
@@ -113,7 +113,7 @@ funfacts:
       count : "60"
 
     # funfact item loop
-    - name : "harmonogram"
+    - name : "harmonogram-odbioru-odpadów-odbioru-odpadów"
       count : "50"
 
     # funfact item loop

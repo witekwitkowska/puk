@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://witekwitkowska.github.io/"
-title = "Przedsiębiorstwo usług komunalnych SPÓŁKA Z O.O."
+title = "Przedsiębiorstwo Usług Komunalnych SPÓŁKA Z O.O."
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
@@ -46,19 +46,20 @@ link = "plugins/google-map/gmap.js"
 #  main menu
 [[menu.main]]
 weight = 1
+name = "aktualnosci"
+URL = "aktualnosci"
+
+
+[[menu.main]]
+weight = 2
 name = "Pages"
 hasChildren = true
 
 
   [[menu.main]]
   parent = "Pages"
-  name = "harmonogram"
-  URL = "harmonogram"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "aktualnosci"
-  URL = "aktualnosci"
+  name = "harmonogram-odbioru-odpadów"
+  URL = "harmonogram-odbioru-odpadów"
 
   [[menu.main]]
   parent = "Pages"
@@ -87,11 +88,6 @@ hasChildren = true
 
 
 [[menu.main]]
-name = "zamowienia-publiczne"
-URL = "zamowienia-publiczne"
-weight = 2
-
-[[menu.main]]
 name = "contact"
 URL = "kontakt"
 weight = 3
@@ -100,8 +96,8 @@ weight = 3
 # footer menu
 
 [[menu.footer]]
-name = "harmonogram"
-URL = "harmonogram"
+name = "harmonogram-odbioru-odpadów"
+URL = "harmonogram-odbioru-odpadów"
 
 [[menu.footer]]
 name = "aktualnosci"
@@ -134,7 +130,7 @@ author = "Kasia"
 # contact info
 address = "ul. Targowa 5"
 address2 = "78-449 Borne Sulinowo"
-mobile = "tel. 94 37 32 900,"
+mobile = "tel. 94 37 32 900"
 mobile2 = "fax. 94 37 32 910"
 email = "biuro@puk-bornesulinowo.pl"
 # contact form action
@@ -156,44 +152,16 @@ enable = true
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
 
-# google map
-[params.map]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png" # marker size 37*55 px
-
 # cookies
 [params.cookies]
 enable = false
 expire_days = 2
   
 ############################## social site ########################
-#[[params.social]]
-#title = "facebook"
-#icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-#link = "#"
-#
-#[[params.social]]
-#title = "twitter"
-#icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-#link = "#"
-#
-#[[params.social]]
-#title = "instagram"
-#icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-#link = "#"
-#
-#[[params.social]]
-#title = "github"
-#icon = "ti-github" # themify icon : https://themify.me/themify-icons
-#link = "#"
-#
 [[params.social]]
 title = "bik"
 icon = "images/bip-logo.png"
-link = "http://www.bip.bornesulinowo.pl/index.php?id=69153"
+link = "http://puk.bornesulinowo.ibip.pl/public/"
 
 
 ################################### English language #####################################
@@ -204,15 +172,5 @@ contentDir = "content/english"
 weight = 1
 home = "Strona Główna"
 # copyright
-copyright = "Copyright &copy; 2020 Przedsiębiorstwo usług komunalnych w Bornem Sulinowie"
+copyright = "Copyright &copy; 2020 Przedsiębiorstwo Usług Komunalnych w Bornem Sulinowie"
 
-
-#################################### French language #####################################
-#[Languages.fr]
-#languageName = "Fr"
-#languageCode = "fr-fr"
-#contentDir = "content/french"
-#weight = 2
-#home = "Accueil"
-## copyright
-#copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
