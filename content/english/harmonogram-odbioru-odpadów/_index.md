@@ -1,5 +1,5 @@
 ---
-title: "Harmonogram"
+title: "Harmonogram odbioru odpadów"
 short_name: "Harmonogramy"
 draft: false
 # page title background image
