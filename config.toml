@@ -112,11 +112,11 @@ name = "energia-cieplna"
 URL = "energia-cieplna"
 
 [[menu.footer]]
-name = "cmentarze"
+name = "Cmentarze"
 URL = "cmentarze"
 
 [[menu.footer]]
-name = "pszok"
+name = "PSZOK"
 URL = "pszok"
 
 

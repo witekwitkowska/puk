@@ -1,5 +1,6 @@
 ---
 title: "Energia cieplna"
+short_name: "Energia cieplna"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/energia-cieplna.jpg"

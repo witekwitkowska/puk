@@ -1,5 +1,6 @@
 ---
 title: "Cmentarze komunalne"
+short_name: "Cmentarze"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/cmentarze.jpg"

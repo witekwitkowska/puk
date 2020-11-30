@@ -1,5 +1,6 @@
 ---
 title: "Targowisko miejskie - \"Mój rynek\""
+short_name: "Targowisko miejskie"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/targowisko-miejskie.jpg"

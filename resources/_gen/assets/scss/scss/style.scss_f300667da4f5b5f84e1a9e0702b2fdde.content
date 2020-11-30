@@ -505,6 +505,24 @@ textarea.form-control {
   @media (max-width: 575px) {
     .custom-height {
       height: 80px; } }
+.square {
+  position: relative;
+  width: 100%;
+  padding: 0.2em;
+  padding-bottom: 100% !important; }
+
+.square-content {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  padding-top: 20%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 0.1em; }
+
+.square-content-text {
+  font-size: 11em !important; }
+
 .top-header {
   font-size: 12px;
   transition: transform .2s ease;

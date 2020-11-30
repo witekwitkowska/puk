@@ -1,5 +1,6 @@
 ---
 title: "PSZOK - Punkt selektywnej zbiórki odpadów"
+short_name: "PSZOK"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/pszok.jpg"
