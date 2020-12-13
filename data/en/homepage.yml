@@ -1,7 +1,9 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-main.webm"
+  bg_image : "images/banner/banner-main.jpg"
+  bg_video : "images/banner/banner-main.webm"
+  bg_video2 : "images/banner/banner-main.mp4"
   slider_item:
     # slider item loop
     - title : "Przedsiębiorstwo Usług Komunalnych w Bornem Sulinowie"
