@@ -7,7 +7,7 @@ bg_image: "images/backgrounds/harmonogram.jpg"
 feature_item:
    name : "Harmonogram"
    icon : "ti-calendar" # icon pack : https://themify.me/themify-icons
-   content : "Tu sprawdzisz atualne harmonogramy odbioru odpadów na rok 2020/2021"
+   content : "Sprawdź aktualny harmonogram na rok 2020/2021."
 # category
 category: "harmonogram"
 # display aktualnosci

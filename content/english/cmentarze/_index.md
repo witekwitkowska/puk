@@ -7,16 +7,19 @@ bg_image: "images/backgrounds/cmentarze.jpg"
 feature_item:
    name : "Cmentarze"
    icon : "ti-layout-grid4" # icon pack : https://themify.me/themify-icons
-   content : "Kliknij alby znaleźć nieboszczyka"
+   content : "Zajmujemy się kompleksową usługą cmentarzy komunalnych w Gminie Borne Sulinowo."
 # image
 image: "images/about/about-page.jpg"
 # meta description
 description : 
 ---
 
-## Cmentarze komunalne
+## Cmentarze komunalne ##
 
-**Internetowy system wyszukiwania osób pochowanych**
-
-Aby znaleźć miejsce pochowania bliskiej osoby kliknij w poniższy link
+##### Internetowy system wyszukiwania osób pochowanych #####
+Kliknij w poniższy link i skorzystaj z naszego systemu, by w prosty sposób sprawdzić miejsce pochówku bliskiej osoby.
 http://bornesulinowo.artlookgallery.com/grobonet/start.php
+
+
+**Uwaga!** 
+Przypominamy o konieczności odnowienia opłaty za miejsce pochówku po upływie 20 lat. Skontaktuj się z nami, aby uzyskać szczegółowe informacje.

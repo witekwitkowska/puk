@@ -1,0 +1,4 @@
+{{ $site := .Site.GetPage "/dokumenty-do-pobrania" }}
+{{ $resource := $site.Resources.GetMatch (.Get 0)}}
+{{ $resource.Permalink }}
+

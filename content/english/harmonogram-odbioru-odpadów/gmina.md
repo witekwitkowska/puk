@@ -1,6 +1,7 @@
 ---
 title: "Teren Gminy Borne Sulinowo"
 draft: false
+download: "gmina-borne-sulinowo.pdf"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description

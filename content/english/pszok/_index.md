@@ -4,25 +4,19 @@ short_name: "PSZOK"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/pszok.jpg"
+illustration: "images/illustrations/targowisko-miejskie.png"
+godziny_otwarcia: ["Poniedziałek 14.00 – 17.00", "Środa 12.00 – 15.00", "Piątek 12.00 – 15.00"]
 feature_item:
    name : "PSZOK"
    icon : "ti-trash" # icon pack : https://themify.me/themify-icons
-   content : "PSZOK to ciekawa sprawa"
+   content : "Pozbądź się wygodnie odpadów wielkogabarytowych."
 # meta description
 description : ""
-# zamowienia-publiczne download link
-download_link1 : "#"
-download_link2 : "#"
+side_description: "PSZOK, czyli Punkt Selektywnej Zbiórki Odpadów Komunalnych to miejsce stworzone specjalnie dla mieszkańców Gminy Borne Sulinowo. Mogą oni bezpłatnie oddać do niego różnego rodzaju odpady niezmieszane oraz wielkogabarytowe. Z Punktu mogą skorzystać również podmioty gospodarcze po wniesieniu odpowiednich opłat określonych w cenniku."
+side_description_title: "Czym jest PSZOK?"
 # type
 type: "pszok"
 ---
-
-
-## Czym jest PSZOK?
-
-PSZOK, czyli Punkt Selektywnej Zbiórki Odpadów Komunalnych to miejsce stworzone specjalnie dla mieszkańców Gminy Borne Sulinowo. Mogą oni bezpłatnie oddać do niego różnego rodzaju odpady niezmieszane oraz wielkogabarytowe. Z Punktu mogą skorzystać również podmioty gospodarcze po wniesieniu odpowiednich opłat określonych w cenniku.
-
-
 
 ### Co możesz oddać do PSZOK?
 
@@ -54,3 +48,5 @@ PSZOK, czyli Punkt Selektywnej Zbiórki Odpadów Komunalnych to miejsce stworzon
 * Odpadów ogrodowych;
 * Worków na śmieci lub kartonów z odpadami domowymi.
 
+**Szczegółowy regulamin targowiska znajdziesz [tutaj]({{< resource "regulamin-PSZOK-wodociągowa.pdf" >}})**
+**a Cennik [tutaj]({{< resource "cennik-odpadów-przyjmowanych-do-PSZOK.pdf" >}})** 

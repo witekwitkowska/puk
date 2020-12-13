@@ -1,12 +1,10 @@
 ---
 title: "Komorze i Rakowo"
+new_line: "enabled"
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+download: "komorze-rakowo.pdf"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-# teacher portrait
-image: "images/teachers/teacher-1.jpg"
+description : ""
 # harmonogram
 harmonogram: "Komorze i Rakowo"
 # id

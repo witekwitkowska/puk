@@ -6,7 +6,7 @@ bg_image: "images/backgrounds/dokumenty-do-pobrania.jpg"
 feature_item:
    name : "Dokumenty do pobrania"
    icon : "ti-download" # icon pack : https://themify.me/themify-icons
-   content : "Wszystki wzory dokumentów do pobrania w PDFie"
+   content : "Wyszukaj i pobierz wszystkie potrzebne dokumenty."
 # image
 image: "images/about/about-page.jpg"
 # meta description
@@ -47,7 +47,7 @@ resources:
         category: harmonogramy
         name: Harmonogram - Rejon II
         
- - src: borne-sulinowo-teren-gminy.pdf
+ - src: gmina-borne-sulinowo.pdf
    title: Harmonogram wywozu śmieci na terenie gminy Borne Sulinowo (pdf)
    params:
        category: harmonogramy
@@ -64,21 +64,31 @@ resources:
    params:
        category: energia cieplna
        name: Umowa sprzedaży ciepła
-       
- - src: ogłoszenie-o-zamówieniu(1).pdf
-   title: Ogłoszenie o zamówieniu - dostawa oleju napędowego (pdf)
+
+ - src: Regulamin_targowiska_stalego_Moj_Rynek.pdf
+   title: Regulamin Targowiska Stałego Mój Rynek (pdf)
    params:
-       category: przetargi
-       subcategory: dostawa-oleju-napedowego
-       name: Ogłoszenie o zamówieniu (1)
-       
- - src: SIWZ(1).pdf
-   title: Specyfikacja Istotnych Warunków Zamówienia - dostawa oleju napędowego (pdf)
+        category: targowisko miejskie
+        name: Regulamin Targowiska Miejskiego
+   
+ - src: taryfa-ciepła.pdf
+   title: Taryfa ciepła (pdf)
    params:
-       category: przetargi
-       subcategory: dostawa-oleju-napedowego
-       name: Specyfikacja Istotnych Warunków Zamówienia (1)
-       
+        category: energia cieplna
+        name: Taryfa ciepła
+   
+ - src: cennik-odpadów-przyjmowanych-do-PSZOK.pdf
+   title: Cennik odpadów przyjmowanych do PSZOK (pdf)
+   params:
+        category: pszok
+        name: Cennik odpadów
+   
+ - src: regulamin-PSZOK-wodociągowa.pdf
+   title: Regulamin PSZOK Wodociągowa (pdf)
+   params:
+        category: pszok
+        name: Regulamin PSZOK
+   
 # type
 type: "dokumenty-do-pobrania"
 ---

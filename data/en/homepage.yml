@@ -1,18 +1,13 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  bg_image : "images/banner/banner-main.webm"
   slider_item:
     # slider item loop
     - title : "Przedsiębiorstwo Usług Komunalnych w Bornem Sulinowie"
       content : ""
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : false
-        label : "Apply now"
-        link : "contact"
 
 
 ############################### Banner feature ###############################

@@ -1,6 +1,7 @@
 ---
 title: "Rejon II z utrudnionym dojazdem"
 draft: false
+download: "rejon1.pdf"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description

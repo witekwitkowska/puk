@@ -1,6 +1,7 @@
 ---
 title: "Borne Sulinowo - budynki wielorodzinne"
 draft: false
+download: "borne-sulinowo-budynki-wielorodzinne.pdf"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description

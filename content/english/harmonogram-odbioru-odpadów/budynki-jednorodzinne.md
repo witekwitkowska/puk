@@ -1,6 +1,7 @@
 ---
 title: "Borne Sulinowo  - budynki jednorodzinne"
 draft: false
+download: "borne-sulinowo-budynki-jednorodzinne.pdf"
 # harmonogram
 harmonogram: "Borne Sulinowo"
 # id
