@@ -14,7 +14,7 @@ html {
   font-family: "Poppins", sans-serif; }
 
 body {
-  line-height: 1.2;
+  line-height: 1.4;
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
@@ -34,10 +34,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2; }
 
 h1, .h1 {
-  font-size: 60px; }
-  @media (max-width: 575px) {
+  font-size: 55px; }
+  @media (max-width: 991px) {
     h1, .h1 {
-      font-size: 2em; } }
+      font-size: 2.3em; } }
 h2, .h2 {
   font-size: 40px; }
   @media (max-width: 575px) {
@@ -331,11 +331,12 @@ a h4:hover {
 /* page title */
 .page-title-section {
   padding: 200px 0 80px; }
-
-@media (max-width: 500px) {
-  .page-title-section {
-    height: 100vh; } }
-
+  @media (max-width: 991px) {
+    .page-title-section {
+      height: 100vh;
+      padding: 0 0 5vh;
+      display: flex;
+      align-items: flex-end; } }
 .custom-breadcrumb li.nasted {
   position: relative;
   padding-left: 25px; }
@@ -541,16 +542,18 @@ textarea.form-control {
   content: "\e806";
   color: #1a1a37;
   font-size: 2rem; }
-
+  @media (max-width: 991px) {
+    .custom-hamburger {
+      color: #fff; } }
 .navigation {
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #00963F 50%);
   transition: .2s ease; }
   @media (max-width: 991px) {
     .navigation {
-      background: #fff; } }
+      background: rgba(255, 255, 255, 0); } }
 @media (max-width: 991px) {
   .navbar {
-    padding: 1rem 1rem !important; } }
+    padding: 1rem 0rem !important; } }
 
 @media (max-width: 1200px) {
   .navbar-collapse {
@@ -569,13 +572,21 @@ textarea.form-control {
 .nav-bg {
   background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(5px); }
-
+  @media (max-width: 991px) {
+    .nav-bg {
+      background-color: white; } }
+  @media (max-width: 991px) {
+    .nav-bg span {
+      color: #1a1a37; } }
 .nav-item {
   margin: 0 15px;
   position: relative; }
   .nav-item .nav-link {
     text-transform: uppercase;
     font-weight: 600; }
+  @media (max-width: 767px) {
+    .nav-item {
+      margin: auto; } }
   .nav-item::before {
     position: absolute;
     left: 0;
@@ -593,7 +604,9 @@ textarea.form-control {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff; }
-
+  @media (max-width: 991px) {
+    .navbar-dark .navbar-nav .nav-link {
+      color: black; } }
 link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #fff; }
@@ -705,11 +718,8 @@ video {
 
 .hero-slider {
   position: absolute;
-  top: 50vh; }
-  @media (max-width: 575px) {
-    .hero-slider {
-      top: 70vh;
-      margin: auto; } }
+  left: 0;
+  bottom: 10vh; }
   .hero-slider .slick-dots {
     position: absolute;
     left: 0;
@@ -732,11 +742,10 @@ video {
 
 /* Logo */
 .logo-size {
-  width: 40%;
-  margin-left: -15px; }
+  width: 40%; }
   @media (max-width: 767px) {
     .logo-size {
-      width: 50%; } }
+      width: 60%; } }
 /* banner feature */
 .feature-icon {
   font-size: 50px;
@@ -949,6 +958,10 @@ ul.max-3-elems {
     background-color: #00963F;
     color: #fff; }
 
+@media (max-width: 991px) {
+  .bg-contact {
+    background: none !important; } }
+
 @media (max-width: 767px) {
   .no-mobile-padding {
     padding: 0 !important; } }
@@ -1020,7 +1033,9 @@ ul.max-3-elems {
   position: relative;
   font-size: 14px;
   padding: 10px 15px 0 15px; }
-
+  @media (max-width: 575px) {
+    .dashboard-cards .card .card-description {
+      padding: 0; } }
 .dashboard-cards .card .card-actions {
   box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
   padding: 10px;
@@ -1063,10 +1078,9 @@ ul.max-3-elems {
   background: #ffffff;
   -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg); }
-  @media (max-width: 991px) {
+  @media (max-width: 575px) {
     .dashboard-cards .card.d-card-show .card-flap {
-      width: 100vw;
-      margin-left: -20px; } }
+      width: 100%; } }
 .dashboard-cards .card.d-card-show .flap1 {
   transition: all 0.3s 0s ease-out; }
 
@@ -1162,7 +1176,6 @@ ul.max-3-elems {
 .jsCalendar thead .jsCalendar-nav-right {
   border-radius: 10px;
   color: #7FBA27;
-  cursor: pointer;
   font-size: 12px;
   font-weight: bold;
   height: 20px;
@@ -1340,14 +1353,18 @@ ul.max-3-elems {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  bottom: 9px;
-  height: 6px;
-  margin-left: 4rem;
-  margin-bottom: 15px; }
+  margin-left: 4em; }
+  @media (max-width: 575px) {
+    .legend {
+      margin-left: 1em; } }
+.legend-elem {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center; }
 
 .legend-marker {
-  width: 13px;
-  height: 13px;
+  width: 14px;
+  height: 14px;
   display: inline;
   margin-left: 10px;
   margin-right: 5px;

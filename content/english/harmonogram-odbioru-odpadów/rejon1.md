@@ -2,12 +2,8 @@
 title: "Rejon I z utrudnionym dojazdem"
 draft: false
 download: "rejon1.pdf"
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-# teacher portrait
-image: "images/teachers/teacher-1.jpg"
+description : ""
 # harmonogram
 harmonogram: "Z utrudnionym dojazdem"
 # id
@@ -16,7 +12,7 @@ Id: "rejon1-calendar"
 calendar:
 
   - name : "Odpady Komunalne"
-    dates : ["2020,11,4","2020,11,18"]
+    dates : ["2020,12,2","2020,12,16","2020,12,30","2020,1,13","2020,1,27","2020,2,10","2020,2,24","2020,3,10","2020,3,24","2020,4,7","2020,4,21"]
     color : "#000000"
 
   - name : "Bio"
@@ -24,16 +20,19 @@ calendar:
     color : "#573f1b"
 
   - name : "Tworzywa Sztuczne, Metale"
-    dates : ["2020,11,4","2020,11,18"]
+    dates : ["2020,12,2","2020,12,16","2020,12,30","2020,1,13","2020,1,27","2020,2,10","2020,2,24","2020,3,10"
+    ,"2020,3,24","2020,4,7","2020,4,21"]
     color : "#e0de36"
 
   - name : "Papier"
-    dates : ["2020,11,18"]
+    dates : ["2020,12,2","2020,1,13","2020,2,10","2020,3,10","2020,4,7"]
     color : "#3258a8"
 
   - name : "Szkło"
-    dates : ["2020,11,4"]
+    dates : ["2020,12,16","2020,1,27","2020,2,24","2020,3,24","2020,4,21"]
     color : "#1bbf02"
+
+
 ---
 Odpady BIO będą odbierane po telefonicznym zgłoszeniu.
 
