@@ -1,16 +1,30 @@
-- uses: actions/checkout@v1
+name: Publish
+
+on:
+  push:
+    branches:
+    - initial
+  schedule:
+    - cron:  '0 8 * * *'
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v1
       with:
         submodules: true
-        
-- name: Setup Hugo
+
+    - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.62.0'
 
     - name: Build
       run: hugo -D
-      
-- name: Deploy
+
+    - name: Deploy
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
         ftp-server:  puk-bornesulinowo.home.pl
