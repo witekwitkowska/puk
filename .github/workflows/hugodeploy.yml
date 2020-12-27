@@ -1,0 +1,19 @@
+- uses: actions/checkout@v1
+      with:
+        submodules: true
+        
+- name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.62.0'
+
+    - name: Build
+      run: hugo -D
+      
+- name: Deploy
+      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      with:
+        ftp-server:  puk-bornesulinowo.home.pl
+        ftp-username: www
+        ftp-password: ${{ secrets.FTP_PASSWORD_PUK }}
+        local-dir: public/
