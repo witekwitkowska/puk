@@ -38,6 +38,9 @@ h1, .h1 {
   @media (max-width: 991px) {
     h1, .h1 {
       font-size: 2.3em; } }
+  @media (max-width: 575px) {
+    h1, .h1 {
+      font-size: 2em; } }
 h2, .h2 {
   font-size: 40px; }
   @media (max-width: 575px) {
@@ -103,8 +106,9 @@ h6, .h6 {
       transform-origin: bottom; }
 
 .btn-sm {
-  font-size: 14px;
-  padding: 10px 35px; }
+  font-size: 16px;
+  padding: 10px 30px;
+  font-weight: 600; }
 
 .btn-xs {
   font-size: 12px;
@@ -334,7 +338,7 @@ a h4:hover {
   @media (max-width: 991px) {
     .page-title-section {
       height: 100vh;
-      padding: 0 0 5vh;
+      padding: 0 0 8vh;
       display: flex;
       align-items: flex-end; } }
 .custom-breadcrumb li.nasted {
@@ -583,7 +587,7 @@ textarea.form-control {
   position: relative; }
   .nav-item .nav-link {
     text-transform: uppercase;
-    font-weight: 600; }
+    font-weight: 800; }
   @media (max-width: 767px) {
     .nav-item {
       margin: auto; } }
@@ -722,6 +726,9 @@ video {
   position: absolute;
   left: 0;
   bottom: 10vh; }
+  @media (max-width: 575px) {
+    .hero-slider {
+      width: 100vw; } }
   .hero-slider .slick-dots {
     position: absolute;
     left: 0;
@@ -854,6 +861,7 @@ video {
   position: absolute;
   background: #7FBA27;
   font-family: "Poppins";
+  font-weight: 600;
   text-align: center;
   padding: 10px;
   color: #fff;
