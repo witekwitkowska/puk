@@ -8,10 +8,8 @@ feature_item:
    name : "Cmentarze"
    icon : "ti-layout-grid4" # icon pack : https://themify.me/themify-icons
    content : "Zajmujemy się kompleksową usługą cmentarzy komunalnych w Gminie Borne Sulinowo."
-# image
-image: "images/about/about-page.jpg"
 # meta description
-description : 
+description : ""
 ---
 
 ## Cmentarze komunalne ##

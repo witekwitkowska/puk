@@ -5,6 +5,7 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/targowisko-miejskie.jpg"
 illustration: "images/illustrations/targowisko-miejskie.png"
+illustration_alt: "Ilustracja przedstawiająca dłonie wymieniające towary na pieniądze"
 feature_item:
    name : "Targowisko miejskie"
    icon : "ti-shopping-cart-full" # icon pack : https://themify.me/themify-icons

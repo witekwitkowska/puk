@@ -706,7 +706,9 @@ video {
   left: 0;
   overflow-y: scroll;
   height: 110vh; }
-
+  @media (max-width: 991px) {
+    video {
+      height: 100vh; } }
 .video-parallax {
   -webkit-transition-position: fixed;
   position: fixed; }

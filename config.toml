@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://puk-bornesulinowo.pl/"
+baseURL = "https://puk-bornesulinowo.pl/"
 title = "Przedsiębiorstwo Usług Komunalnych SPÓŁKA Z O.O."
 theme = "educenter-hugo"
 # post pagination
@@ -166,8 +166,8 @@ link = "http://puk.bornesulinowo.ibip.pl/public/"
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
-languageCode = "en-us"
+languageName = "PL"
+languageCode = "pl"
 contentDir = "content/english"
 weight = 1
 home = "Strona Główna"

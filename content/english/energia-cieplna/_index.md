@@ -5,6 +5,7 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/energia-cieplna.jpg"
 illustration: "images/illustrations/energia-cieplna.png"
+illustration_alt: "Ilustracja przedstawiająca chmurkę zapakowaną w walizkę"
 aktualna_taryfa: "taryfa-ciepła.pdf"
 feature_item:
    name : "Energia Cieplna"

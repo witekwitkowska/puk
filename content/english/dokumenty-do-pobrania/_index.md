@@ -7,8 +7,6 @@ feature_item:
    name : "Dokumenty do pobrania"
    icon : "ti-download" # icon pack : https://themify.me/themify-icons
    content : "Wyszukaj i pobierz wszystkie potrzebne dokumenty."
-# image
-image: "images/about/about-page.jpg"
 # meta description
 description : ""
 resources:

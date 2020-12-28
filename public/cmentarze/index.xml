@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cmentarze komunalne on Przedsiębiorstwo Usług Komunalnych SPÓŁKA Z O.O.</title>
-    <link>http://puk-bornesulinowo.pl/cmentarze/</link>
+    <link>https://puk-bornesulinowo.pl/cmentarze/</link>
     <description>Recent content in Cmentarze komunalne on Przedsiębiorstwo Usług Komunalnych SPÓŁKA Z O.O.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 Przedsiębiorstwo Usług Komunalnych w Bornem Sulinowie</copyright>
     
-	<atom:link href="http://puk-bornesulinowo.pl/cmentarze/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://puk-bornesulinowo.pl/cmentarze/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
