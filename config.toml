@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://witekwitkowska.github.io/"
+baseURL = "http://puk-bornesulinowo.pl/"
 title = "Przedsiębiorstwo Usług Komunalnych SPÓŁKA Z O.O."
 theme = "educenter-hugo"
 # post pagination
