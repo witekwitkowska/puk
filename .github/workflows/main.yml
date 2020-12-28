@@ -22,7 +22,7 @@ jobs:
         hugo-version: '0.68.3'
 
     - name: Build
-      run: hugo -t educenter-hugo
+      run: hugo --minify
 
     - name: Deploy
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
