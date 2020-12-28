@@ -4,15 +4,13 @@ on:
   push:
     branches:
     - initial
-  schedule:
-    - cron:  '0 8 * * *'
 
 jobs:
   Deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
 
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
       with:
         submodules: false
 
@@ -22,7 +20,7 @@ jobs:
         hugo-version: '0.68.3'
 
     - name: Build
-      run: hugo --minify
+      run: hugo
 
     - name: Deploy
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
@@ -30,4 +28,4 @@ jobs:
         ftp-server:  puk-bornesulinowo.home.pl/public_html/
         ftp-username: www
         ftp-password: ${{ secrets.FTP_PASSWORD_PUK }}
-        local-dir: public/
+        local-dir: ./public/
