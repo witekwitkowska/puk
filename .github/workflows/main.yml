@@ -25,11 +25,10 @@ jobs:
     - name: FTP site
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        ftp-server:  puk-bornesulinowo.home.pl/public_html/
-        ftp-username: www
-        ftp-password: ${{ secrets.FTP_PASSWORD_PUK }}
+        server:  puk-bornesulinowo.home.pl/public_html/
+        username: www
+        password: ${{ secrets.FTP_PASSWORD_PUK }}
         local-dir: public/
         exclude: .htaccess  
-         -  **/.git*/**
-        git-ftp-args: --insecure --all
+          -  **/.htaccess/**
 
