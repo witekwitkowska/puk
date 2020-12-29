@@ -4,7 +4,6 @@ on:
   push:
     branches:
     - initial
-
 jobs:
   Deploy:
     runs-on: ubuntu-latest
@@ -14,11 +13,23 @@ jobs:
       with:
         submodules: false
 
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.68.3'
+        extended: true
 
-    - name: Deploy
+    - name: Build site
+      run: hugo --minify
+
+    - name: FTP site
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
         ftp-server:  puk-bornesulinowo.home.pl/public_html/
         ftp-username: www
         ftp-password: ${{ secrets.FTP_PASSWORD_PUK }}
-        local-dir: ./public/
+        local-dir: public/
+        exclude: .htaccess  
+         -  **/.git*/**
+        git-ftp-args: --insecure --all
+
