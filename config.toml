@@ -58,8 +58,8 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Pages"
-  name = "harmonogram-odbioru-odpadów"
-  URL = "harmonogram-odbioru-odpadów"
+  name = "harmonogram-odbioru-odpadow"
+  URL = "harmonogram-odbioru-odpadow"
 
   [[menu.main]]
   parent = "Pages"
@@ -96,8 +96,8 @@ weight = 3
 # footer menu
 
 [[menu.footer]]
-name = "harmonogram-odbioru-odpadów"
-URL = "harmonogram-odbioru-odpadów"
+name = "harmonogram-odbioru-odpadow"
+URL = "harmonogram-odbioru-odpadow"
 
 [[menu.footer]]
 name = "aktualnosci"

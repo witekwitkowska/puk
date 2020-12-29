@@ -12,7 +12,7 @@ feature_item:
    icon : "ti-home" # icon pack : https://themify.me/themify-icons
    content : "Sprawdź aktualną taryfę i dowiedz się jak podpisać umowę na dostawę ciepła."
 # meta description
-description : "Aktualna taryfa / Jak zawrzeć umowę / "
+description : ""
 ---
 
 
