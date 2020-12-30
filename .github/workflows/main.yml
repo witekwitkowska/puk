@@ -32,6 +32,4 @@ jobs:
         server-dir: public_html/
         exclude: .htaccess  
           -  **/.htaccess/**
-          -  *.mp4
-          -  *.webm
 
