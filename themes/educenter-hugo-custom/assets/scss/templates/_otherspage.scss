@@ -1,0 +1,32 @@
+.filter-controls{
+  li{
+    cursor: pointer;
+    transition: .1s ease;
+    &.active{
+      font-weight: 600;
+      color: $secondary-color;
+    }
+    &:hover{
+      color: $secondary-color;
+    }
+  }
+}
+
+.tag-list{
+  a{
+    display: block;
+    padding: 5px 10px;
+    background: $light;
+    color: $text-color;
+    &:hover{
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+}
+
+.bg-contact {
+  @include desktop {
+    background: none !important;
+  }
+}

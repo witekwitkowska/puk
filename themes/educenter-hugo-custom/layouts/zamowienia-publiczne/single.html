@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+<!-- zamowienia-publiczne -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex">
+                    <div class="text-center mr-4">
+
+                        <div class="p-2" class="p-2"
+                             style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/light.png`| relURL}}'); background-size: 100%;">
+                            <div class="text-center p-4 bg-third text-white">
+                                <span class="h2 d-block">{{ .Date.Format "02" }}</span><br>{{ .Date.Format "Jan" }}<br>{{ .Date.Format "2006" }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        {{ .Content }}
+                        {{ $subcategory := .Params.Subcategory }}
+                        {{ with .Site.GetPage "/dokumenty-do-pobrania" }}
+                        <h4>Załączniki</h4>
+                        <ul class="list-unstyled">
+                            {{ range .Resources.Match "*" }}
+                            {{ if (eq .Params.Subcategory $subcategory) }}
+                            <li class="mb-3"><a class="" href="{{ .Permalink }}" target="_blank">{{ .Params.Name }}</a>
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                        {{ end }}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /zamowienia-publiczne details -->
+
+{{ end }}

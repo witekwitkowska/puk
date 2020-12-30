@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<!-- harmonogram-odbioru-odpadow -->
+<section class="section">
+    <div class="container p-2">
+
+        <div class="row dashboard-cards">
+            {{ range .Data.Pages }}
+            <div data-category="{{ .Params.harmonogram | urlize }}" class="col-lg-6 col-sm-12 no-mobile-padding">
+                {{ .Render "harmonogram-odbioru-odpadow" }}
+            </div>
+
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- /harmonogram-odbioru-odpadow -->
+
+
+<!-- more aktualnosci -->
+{{ $related := (where site.RegularPages "Type" "aktualnosci") | intersect (where site.RegularPages ".Params.category" "==" .Params.category) | union (site.RegularPages.Related . )}}
+{{ if $related }}
+
+<section class="section pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="section-title">Aktualności z kategorii Harmonogram</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            {{ range $related }}
+            <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                {{ .Render "aktualnosci" }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- /more aktualnosci -->
+
+{{ end }}
+{{ end }}
+
+

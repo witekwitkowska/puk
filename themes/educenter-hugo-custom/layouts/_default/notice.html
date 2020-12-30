@@ -1,0 +1,14 @@
+<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+    <div class="p-2" class="p-2"
+         style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/dark.png`| relURL}}'); background-size: 100%;">
+        <div class="d-md-table-cell text-center p-4 bg-secondary text-white mb-md-0">
+            <span class="h2 d-block">{{ .Date.Format "02" }}</span><br>{{ .Date.Format "Jan" }}<br>{{ .Date.Format "2006" }}
+        </div>
+    </div>
+
+    <div class="d-md-table-cell px-2 px-md-4 vertical-align-middle mt-4 mb-4 mb-md-0">
+        <a href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .Title }}</a>
+        <p class="mb-0">{{ .Summary | truncate 100 }}</p>
+    </div>
+    <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="{{ .Permalink }}" class="btn btn-primary">{{ i18n "read_more"}}</a></div>
+</li>

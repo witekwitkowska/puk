@@ -1,0 +1,16 @@
+<!-- page title -->
+<section class="page-title-section overlay"
+         style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/banner/banner-main.jpg`| relURL}}'); background-size: cover; background-position: center center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="list-inline custom-breadcrumb">
+                    <li class="list-inline-item"><h1 class="h2"><a class="text-primary font-secondary"
+                                                       href="{{ .Parent.Permalink | relURL }}">{{ if .Parent }} {{ .Parent.Title }} {{ end }}</a></h1></li>
+                    <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
+                    <li class="list-inline-item "><h2 class="h3 text-white font-secondary">{{ .Title }}</h2></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+<!-- pszok -->
+<section class="section-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 my-auto content">
+                <h2>{{ .Params.side_description_title }}</h2>
+                <p>{{ .Params.side_description }}</p>
+                <h3>Adres i godziny otwarcia</h3>
+                <p>Punkt znajduje się przy ulicy Wodociągowej w Bornem Sulinowie i jest czynny w godzinach:</p>
+                <ul>
+                    {{ range .Params.godziny_otwarcia }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="col-lg-6 my-auto">
+                <img class="img-fluid w-100 my-auto " src="{{ .Params.illustration | relURL }}"
+                     alt="{{ .Params.short_name }}">
+            </div>
+        </div>
+        <div class="row">
+            <!-- border -->
+            <div class="col-12 mt-4">
+                <div class="border-bottom border-primary"></div>
+            </div>
+            <div class="col-12 my-5 content">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+    <!-- /pszok -->
+
+
+    <!-- więcej aktualnosci -->
+    {{ $related := (where site.RegularPages "Type" "aktualnosci") | intersect (where site.RegularPages ".Params.category" "==" .Params.category) | union (site.RegularPages.Related . )}}
+    {{ if $related }}
+
+    <section class="section pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="section-title">Aktualności z kategorii PSZOK</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                {{ range $related }}
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    {{ .Render "aktualnosci" }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <!-- /więcej aktualnosci -->
+
+    {{ end }}
+    {{ end }}

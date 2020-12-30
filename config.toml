@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://puk-bornesulinowo.pl/"
 title = "Przedsiębiorstwo Usług Komunalnych SPÓŁKA Z O.O."
-theme = "educenter-hugo"
+theme = "educenter-hugo-custom"
 # post pagination
 paginate = "6"
 # post excerpt

@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<!-- dokumenty do pobrania -->
+<section class="section mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline text-center filter-controls mb-5">
+                    <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
+                    {{ $categories := slice }}
+                    {{ $documents := .Resources }}
+                    {{ range $documents }}
+                    {{ $categories = $categories | append .Params.Category }}
+                    {{ end }}
+                    {{ range ( $categories | uniq ) }}
+                    <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+
+        <div class="row filtr-container m-auto">
+            {{ range .Resources.Match "*"}}
+            <div data-category="{{ .Params.Category | urlize }}"
+                 class="m-auto py-3 border-bottom col-lg-10 filtr-item custom-height">
+                <a href="{{ .Permalink }}" target="_blank" class="download">{{ .Title }}</a>
+            </div>
+            {{ end }}
+        </div>
+
+    </div>
+</section>
+
+<!-- /dokumenty do pobrania -->
+{{ end }}

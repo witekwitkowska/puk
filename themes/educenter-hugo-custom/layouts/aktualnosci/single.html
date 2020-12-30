@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<section class="section-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">{{ .Title }}</h2>
+            </div>
+        </div>
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-9">
+                <ul class="list-inline">
+                    <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                        <div class="d-flex align-items-center">
+                            <i class="ti-bookmark text-primary icon-md mr-2"></i>
+                            <div class="text-left">
+                                <h6 class="mb-0">{{ i18n "category" | upper}}</h6>
+                                <p class="mb-0">{{ .Params.Category | markdownify }}</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                        <div class="d-flex align-items-center">
+                            <i class="ti-calendar text-primary icon-md mr-2"></i>
+                            <div class="text-left">
+                                <h6 class="mb-0">{{ i18n "date" | upper}}</h6>
+                                <p class="mb-0">{{ .Date.Format "02" }} {{ index $.Site.Data.miesiące (printf "%d" .Date.Month) }} {{ .Date.Format "2006" }}</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- border -->
+            <div class="col-12 mt-4 order-4">
+                <div class="border-bottom border-primary"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mb-50 content">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-4 order-4">
+                <div class="border-bottom border-primary"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">{{ i18n "wiecej_aktualnosci" }}</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            {{ $related := (where site.RegularPages "Type" "aktualnosci") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+            {{ range first 3 $related }}
+            <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                {{ .Render "aktualnosci" }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

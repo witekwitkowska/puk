@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<!-- targowisko-miejskie -->
+<section class="section-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 my-auto content">
+                {{ .Content }}
+            </div>
+            <div class="col-lg-6 mb-50">
+                <img class="img-fluid w-100" src="{{ .Params.illustration | relURL }}" alt="{{ .Params.short_name }}">
+            </div>
+        </div>
+        <div class="row">
+            <!-- border -->
+            <div class="col-12 mt-4 order-4">
+                <div class="border-bottom border-primary"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /targowisko-miejskie -->
+
+<!-- więcej aktualnosci -->
+{{ $related := (where site.RegularPages "Type" "aktualnosci") | intersect (where site.RegularPages ".Params.category" "==" .Params.category) | union (site.RegularPages.Related . )}}
+{{ if $related }}
+<section class="section pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="section-title">Aktualności z kategorii Cmentarze</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            {{ range $related }}
+            <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                {{ .Render "aktualnosci" }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- /więcej aktualnosci -->
+
+{{ end }}
+{{ end }}

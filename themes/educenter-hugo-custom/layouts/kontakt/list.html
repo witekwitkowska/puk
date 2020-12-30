@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+<!-- contact -->
+<section class="section bg-contact"
+         style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/backgrounds/dashed.jpg`| relURL}}'); background-size: 100%; background-repeat: no-repeat; background-position: center center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-title mb-5">{{ site.Title }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6  mb-3">
+                <div class="p-2 square"
+                     style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/dark.png`| relURL}}'); background-size: 100%;">
+                    <div class="text-center bg-secondary square-content">
+                        <h2 class="h5 mb-4 text-white">Czynne</h2>
+                        <p class="text-white square-content-text">od poniedziałku do piątku w&nbsp;godzinach od&nbsp;7.00
+                            do&nbsp;15.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-3">
+                <div class="p-2 square"
+                     style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/dark2.png`| relURL}}'); background-size: 100%;">
+                    <div class="text-center bg-secondary square-content">
+                        <p class="text-white square-content-text"><i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}
+                        </p>
+                        <p class="text-white square-content-text"><i class="ti-layers mr-2"></i>{{ site.Params.mobile2 }}</p>
+                        <p class="text-white square-content-text"><i class="ti-email mr-2"></i><a
+                                href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+                        <p class="text-white square-content-text">{{ site.Params.address | markdownify }}</p>
+                        <p class="text-white square-content-text">{{ site.Params.address2 | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="p-2 square"
+                     style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/dark.png`| relURL}}'); background-size: 100%;">
+                    <div class="text-center bg-secondary square-content">
+                        <h2 class="h5 mb-4 text-white">Dział Mieszkaniowy </h2>
+                        <p class="text-white square-content-text">przyjmowanie interesantów w&nbsp;dni&nbsp;robocze w&nbsp;godzinach
+                            od&nbsp;12.00&nbsp;do&nbsp;14.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /contact -->
+
+<!-- map -->
+<section class="section pt-0">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9475.577875206174!2d16.5354229!3d53.5775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c0021e0612c0600!2sPrzedsi%C4%99biorstwo%20Us%C5%82ug%20Komunalnych%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1605435481608!5m2!1spl!2spl"
+            width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+</section>
+<!-- /map -->
+
+{{ end }}
