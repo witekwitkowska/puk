@@ -34,4 +34,6 @@ jobs:
           -  **/.htaccess/**
           - '*.mp4'
           - '*.webm'
+          - '*.js'
+          - '*.css'
 
