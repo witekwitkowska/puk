@@ -362,7 +362,7 @@ a h4:hover {
   @media (max-width: 991px) {
     .page-title-section {
       height: 100vh;
-      padding: 0 0 8vh;
+      padding: 0 0 12vh;
       display: flex;
       align-items: flex-end; } }
 .custom-breadcrumb li.nasted {
@@ -1293,7 +1293,9 @@ ul.max-3-elems {
 .jsCalendar tbody {
   display: block;
   margin: 0 4px 4px 4px; }
-
+  @media (max-width: 370px) {
+    .jsCalendar tbody {
+      margin: 0 0 0 0; } }
 .jsCalendar ::-moz-selection {
   background: #83D8FF; }
 
@@ -1311,7 +1313,9 @@ ul.max-3-elems {
   color: #FFFFFF;
   margin: 0;
   padding: 4px 4px 0 4px; }
-
+  @media (max-width: 370px) {
+    .jsCalendar.material-theme thead {
+      padding: 0 0 0 0; } }
 .jsCalendar.material-theme thead .jsCalendar-title {
   display: block;
   position: relative; }
