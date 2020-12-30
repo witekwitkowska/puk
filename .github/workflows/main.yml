@@ -20,7 +20,7 @@ jobs:
         extended: true
 
     - name: Build site
-      run: hugo --minify
+      run: hugo --minify -t educenter-hugo
 
     - name: FTP site
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
