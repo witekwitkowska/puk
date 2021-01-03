@@ -533,7 +533,7 @@ textarea.form-control {
       height: 70px; } }
   @media (max-width: 575px) {
     .custom-height {
-      height: 80px; } }
+      height: 86px; } }
 @media (max-width: 575px) {
   .bg-contact {
     background: none !important; } }

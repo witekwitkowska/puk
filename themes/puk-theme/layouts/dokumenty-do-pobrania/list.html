@@ -21,13 +21,11 @@
         </div>
 
         <div class="row filtr-container m-auto">
-            {{ $documents := .Resources.Match "*" }}
-            {{ range sort $documents }}{{ .Title }}
+            {{ range.Resources.Match "*" }}
             <div data-category="{{ .Params.Category | urlize }}"
                  class="m-auto py-3 border-bottom col-lg-10 filtr-item custom-height">
                 <a href="{{ .Permalink }}" target="_blank" class="download">{{ .Title }}</a>
             </div>
-            {{ end }}
             {{ end }}
         </div>
 
