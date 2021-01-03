@@ -171,9 +171,9 @@ link = "http://puk.bornesulinowo.ibip.pl/public/"
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "EN"
-languageCode = "en"
-contentDir = "content/english"
+languageName = "PL"
+languageCode = "pl"
+contentDir = "content"
 weight = 1
 home = "Strona Główna"
 # copyright
