@@ -6,7 +6,7 @@ slider:
   bg_video2 : "images/banner/banner-main.mp4"
   slider_item:
     # slider item loop
-    - title : "Przedsiębiorstwo Usług Komunalnych w Bornem Sulinowie"
+    - title : "Przedsiębiorstwo Usług Komunalnych Sp. z o. o. w Bornem Sulinowie"
       content : ""
       animation_in : "left"
       animation_out : "right"

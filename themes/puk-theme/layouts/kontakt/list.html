@@ -14,9 +14,11 @@
                 <div class="p-2 square"
                      style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/dark.png`| relURL}}'); background-size: 100%;">
                     <div class="text-center bg-secondary square-content">
-                        <h2 class="h5 mb-4 text-white">Czynne</h2>
-                        <p class="text-white square-content-text">od poniedziałku do piątku w&nbsp;godzinach od&nbsp;7.00
-                            do&nbsp;15.00</p>
+                        <div class="square-content-align">
+                            <h2 class="h3 mb-3 text-white">Czynne</h2>
+                            <p class="text-white square-content-text">od poniedziałku do piątku w&nbsp;godzinach od&nbsp;7.00
+                                do&nbsp;15.00</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -24,13 +26,15 @@
                 <div class="p-2 square"
                      style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/dark2.png`| relURL}}'); background-size: 100%;">
                     <div class="text-center bg-secondary square-content">
-                        <p class="text-white square-content-text"><i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}
-                        </p>
-                        <p class="text-white square-content-text"><i class="ti-layers mr-2"></i>{{ site.Params.mobile2 }}</p>
-                        <p class="text-white square-content-text"><i class="ti-email mr-2"></i><a
-                                href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
-                        <p class="text-white square-content-text">{{ site.Params.address | markdownify }}</p>
-                        <p class="text-white square-content-text">{{ site.Params.address2 | markdownify }}</p>
+                        <div class="square-content-align">
+                            <p class="text-white square-content-text"><i class="ti-mobile mr-2"></i>{{ site.Params.mobile }}
+                            </p>
+                            <p class="text-white square-content-text"><i class="ti-layers mr-2"></i>{{ site.Params.mobile2 }}</p>
+                            <p class="text-white square-content-text"><i class="ti-email mr-2"></i><a
+                                    href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+                            <p class="text-white square-content-text">{{ site.Params.address | markdownify }}</p>
+                            <p class="text-white square-content-text">{{ site.Params.address2 | markdownify }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -38,9 +42,12 @@
                 <div class="p-2 square"
                      style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/dark.png`| relURL}}'); background-size: 100%;">
                     <div class="text-center bg-secondary square-content">
-                        <h2 class="h5 mb-4 text-white">Dział Mieszkaniowy </h2>
-                        <p class="text-white square-content-text">przyjmowanie interesantów w&nbsp;dni&nbsp;robocze w&nbsp;godzinach
-                            od&nbsp;12.00&nbsp;do&nbsp;14.00</p>
+                        <div class="square-content-align">
+                            <p class="text-white square-content-text">Adm.&nbsp;wspólnotami mieszkaniowymi: 94&nbsp;37&nbsp;32&nbsp;906</p>
+                            <p class="text-white square-content-text">Adm.&nbsp;cmentarzami komunalnymi i&nbsp;Gospodarka Odpadami: 94&nbsp;37&nbsp;32&nbsp;907</p>
+                            <p class="text-white square-content-text">Energia Cieplna: 94 37 32 908</p>
+                        </div>
+
                     </div>
                 </div>
             </div>

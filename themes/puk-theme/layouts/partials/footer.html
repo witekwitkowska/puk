@@ -1,0 +1,196 @@
+<!--form validation-->
+<script>
+function validateform(){
+var name=document.myform.name.value;
+var email=document.myform._replyto.value;
+var message=document.myform.message.value;
+
+    if (name==null || name==""  || email==null || email==""  || message==null || message=="" ){
+      alert("Proszę wypełnić wszystkie pola w formularzu");
+      return false;
+    }
+}
+</script>
+<!-- footer -->
+<footer>
+    <!-- newsletter -->
+    {{ if site.Params.subscription.enable }}
+    {{ with site.Params.subscription }}
+    <div class="newsletter">
+        <div class="container mr-0">
+            <div class="row funny-frame"
+                 style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/newsletter.png`| relURL}}'); background-size: cover;">
+                <div class="col-md-12 m-auto bg-primary py-5 newsletter-block">
+                    <div class="col-lg-10 mr-auto">
+                        <h3 class="text-white">{{ i18n "contact_us" }}</h3>
+                        <form  name="myform" action="{{ site.Params.contact_form_action | safeURL }}" method="POST" onsubmit="return validateform()">
+                            <div class="input-wrapper">
+                                <div class="flexy">
+                                    <label for="name" style="display: none;">Imię i Nazwisko</label>
+                                    <input type="text" class="form-control mb-3 " id="name" name="name"
+                                           placeholder="Imię i nazwisko">
+                                    <label for="mail" style="display: none;">Twój E-mail</label>
+                                    <input type="email" class="form-control mb-3 " id="mail" name="_replyto"
+                                           placeholder="Twój E-mail">
+                                </div>
+                                <label for="message" style="display: none;">Wiadomość</label>
+                                <textarea name="message" id="message" class="form-control mb-3"
+                                          placeholder="Wiadomość"></textarea>
+                                <div>
+                                    <button type="submit" value="send" class="btn btn-secondary">{{ i18n "send" }}
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+    <!-- footer content -->
+    <div class="footer bg-footer section border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0 mx-auto">
+                    <!-- logo -->
+                    <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-5 w-50"
+                                                                                       src="{{ site.Params.logo | absURL }}"
+                                                                                       alt="{{ site.Title }}"></a>
+                    <ul class="list-unstyled">
+                        <li class="mb-4 text-color">{{ site.Params.address | markdownify }}</li>
+                        <li class="mb-4 text-color">{{ site.Params.address2 | markdownify }}</li>
+                        <li class="mb-4 text-color">{{ site.Params.email | markdownify }}</li>
+                        <li class="mb-4 text-color">{{ site.Params.mobile | markdownify }}</li>
+                    </ul>
+                </div>
+                <!-- Strefa Klienta -->
+                <div class="mt-5 pt-2 col-lg-4 col-sm-8 mb-5 mb-md-0 mx-auto">
+                    <h4 class="text-white mb-5 text-uppercase">Strefa klienta</h4>
+                    <ul class="list-unstyled max-3-elems">
+                        {{ range site.Menus.footer }}
+                        {{ with $.Site.GetPage .Name }}
+                        <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Params.short_name }}</a></li>
+                        {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+                <!-- Dokumenty do pobrania -->
+                <div class="mt-5 pt-2 col-lg-4 col-sm-8 mb-5 mb-md-0 mx-auto">
+                    {{ with .Site.GetPage "/dokumenty-do-pobrania" }}
+                    <h4 class="text-white mb-5 text-uppercase"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright -->
+    <div class="copyright py-4 bg-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 text-sm-left text-center">
+                    <p class="mb-0">{{ site.Params.copyright | markdownify }}</p>
+                </div>
+                <div class="col-sm-4 text-sm-right text-center">
+                    <ul class="list-inline">
+                        {{ range site.Params.social }}
+                        <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><img
+                                class="w-50" src="{{ .icon | absURL }}" alt="Link do strony PUK Borne Sulinowo na portalu Biuletyn Informacji Publicznej"></a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /footer -->
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ with site.Params.map.gmap_api }}
+<script src="{{ . | safeURL }}"></script>
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+
+{{ "<!-- google analitycs -->" | safeHTML }}
+{{ with site.Params.google_analitycs_id}}
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', '{{ . }}', 'auto');
+  ga('send', 'pageview');
+
+
+</script>
+{{ end }}
+
+
+<!-- cookie -->
+{{ if site.Params.cookies.enable }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+    This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button"
+                                                                                             class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires: {{ site.Params.cookies.expire_days }}
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+
+
+</script>
+<script src="rolyart-calendar.js"></script>
+<script src="app.js"></script>
+
+
+
+<!-- style -->
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+
+
+</style>
+{{ end }}

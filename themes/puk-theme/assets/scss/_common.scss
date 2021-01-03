@@ -494,7 +494,7 @@ textarea.form-control{
     }
 
     @include mobile {
-        height: 80px;
+        height: 86px;
     }
 }
 
@@ -516,13 +516,19 @@ textarea.form-control{
     position: absolute;
     width: 95%;
     height: 95%;
-    padding-top: 20%;
+    margin: auto;
     padding-right: 5%;
     padding-left: 5%;
     font-size: 0.1em;
     opacity: 0.98;
 }
 
+.square-content-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .square-content-text {
   font-size: 11em !important;
+
 }

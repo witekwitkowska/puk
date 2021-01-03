@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://puk-bornesulinowo.pl/"
-title = "Przedsiębiorstwo Usług Komunalnych SPÓŁKA Z O.O."
-theme = "educenter-hugo-custom"
+title = "Przedsiębiorstwo Usług Komunalnych w Bornem Sulinowie"
+theme = "puk-theme"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -86,6 +86,11 @@ hasChildren = true
   name = "pszok"
   URL = "pszok"
 
+  [[menu.main]]
+  parent = "Pages"
+  name = "ad-wspolnotami-mieszkaniowymi"
+  URL = "ad-wspolnotami-mieszkaniowymi"
+
 
 [[menu.main]]
 name = "contact"
@@ -100,8 +105,8 @@ name = "harmonogram-odbioru-odpadow"
 URL = "harmonogram-odbioru-odpadow"
 
 [[menu.footer]]
-name = "aktualnosci"
-URL = "aktualnosci"
+name = "ad-wspolnotami-mieszkaniowymi"
+URL = "ad-wspolnotami-mieszkaniowymi"
 
 [[menu.footer]]
 name = "targowisko-miejskie"
@@ -166,11 +171,11 @@ link = "http://puk.bornesulinowo.ibip.pl/public/"
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "PL"
-languageCode = "pl"
+languageName = "EN"
+languageCode = "en"
 contentDir = "content/english"
 weight = 1
 home = "Strona Główna"
 # copyright
-copyright = "Copyright &copy; 2020 Przedsiębiorstwo Usług Komunalnych w Bornem Sulinowie"
+copyright = "Copyright &copy; 2020 Przedsiębiorstwo Usług Komunalnych Sp. z o. o. w Bornem Sulinowie"
 

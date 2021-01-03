@@ -9,7 +9,7 @@ illustration_alt: "Ilustracja przedstawiająca chmurkę zapakowaną w walizkę"
 aktualna_taryfa: "taryfa-ciepła.pdf"
 feature_item:
    name : "Energia Cieplna"
-   icon : "ti-home" # icon pack : https://themify.me/themify-icons
+   icon : "ti-panel" # icon pack : https://themify.me/themify-icons
    content : "Sprawdź aktualną taryfę i dowiedz się jak podpisać umowę na dostawę ciepła."
 # meta description
 description : ""

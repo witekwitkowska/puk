@@ -87,6 +87,23 @@ resources:
         category: pszok
         name: Regulamin PSZOK
    
+ - src: Wniosek O WYDANIE WAR CIEPL.doc
+   title: Wniosek o wydanie warunków przyłączenia do sieci ciepłownicze (doc)
+   params:
+        category: energia cieplna
+        name: Wniosek o wydanie war cieplnych
+   
+ - src: Deklaracja indywidualna w sprawie wywozu śmieci we wspólnocie mieszkaniowej.pdf
+   title: Deklaracja w sprawie wywozu śmieci we wspólnocie mieszkaniowej (pdf)
+   params:
+        category: ws mieszkaniowe
+        name: Deklaracja w sprawie wywozu śmieci
+   
+ - src: Karta zgłoszenia usługi'18.pdf
+   title: Karta zgłoszenia usługi (pdf)
+   params:
+        category: inne
+        name: Karta zgłoszenia usługi
 # type
 type: "dokumenty-do-pobrania"
 ---

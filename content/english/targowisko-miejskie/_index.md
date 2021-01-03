@@ -10,8 +10,7 @@ feature_item:
    name : "Targowisko miejskie"
    icon : "ti-shopping-cart-full" # icon pack : https://themify.me/themify-icons
    content : "Sprawdź godziny otwarcia targowiska „Mój rynek”."
-# image
-image: "images/about/about-page.jpg"
+
 # meta description
 description : ""
 ---
