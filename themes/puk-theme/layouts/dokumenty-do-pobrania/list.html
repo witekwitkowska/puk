@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <!-- dokumenty do pobrania -->
 <section class="section mb-5">
     <div class="container">
@@ -10,10 +9,12 @@
                     {{ $categories := slice }}
                     {{ $documents := .Resources }}
                     {{ range $documents }}
-                    {{ $categories = $categories | append .Params.Category }}
+                    {{ if .Params.Category }}
+                        {{ $categories = $categories | append .Params.Category }}
                     {{ end }}
-                    {{ range ( $categories | uniq ) }}
-                    <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}
+                    {{ end }}
+                    {{ range sort ( $categories | uniq ) }}
+                    <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}" value="index" >{{ . | humanize }}
                     </li>
                     {{ end }}
                 </ul>
@@ -21,8 +22,9 @@
         </div>
 
         <div class="row filtr-container m-auto">
-            {{ range.Resources.Match "*" }}
-            <div data-category="{{ .Params.Category | urlize }}"
+            {{ $documents :=  .Resources.Match "*" }}
+            {{ range sort $documents "Params.Order" }}
+            <div data-category="{{ .Params.Category | urlize }}" data-sort="index"
                  class="m-auto py-3 border-bottom col-lg-10 filtr-item custom-height">
                 <a href="{{ .Permalink }}" target="_blank" class="download">{{ .Title }}</a>
             </div>
@@ -34,3 +36,4 @@
 
 <!-- /dokumenty do pobrania -->
 {{ end }}
+
