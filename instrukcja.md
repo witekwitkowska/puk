@@ -32,14 +32,14 @@ Objaśnienie pól w pliku *aktualnosci/_index.md*:
 Objaśnienie pól w pliku *aktualnosci/29-04-2020.md*:
 
 **title**: "PSZOK ponownie otwarty!" // Tytuł storny wyświetlany na granatowym tle ze zdjęciem na górze strony  
-**date**: "2020-04-29T15:27:17+06:00" // Data która ma być przypisana do aktualności
-**draft**: false
-**bg_image**: "images/backgrounds/aktualności.jpg" // link do zdjęcia wyświetlanego na górze strony pod granatowym tłem
-**description** : ""
-**image**: "images/aktualnosci/drzwi.jpg" // link do zdjęcia które wyświetla się na kafelku z *Aktualnością*
-**image_alt**: "Zdjęcie przedstawiające uchylone drzwi" // opis zdjęcia (na kafelku) opisujący treść zdjęcia (ważne dla dostępności strony)
-**category**: Inne // każda aktualność powinna być przyporządkowana do kategorii, według których aktualności można filtrować, 
-**type**: "aktualnosci"
+**date**: "2020-04-29T15:27:17+06:00" // Data która ma być przypisana do aktualności  
+**draft**: false  
+**bg_image**: "images/backgrounds/aktualności.jpg" // link do zdjęcia wyświetlanego na górze strony pod granatowym tłem  
+**description** : ""  
+**image**: "images/aktualnosci/drzwi.jpg" // link do zdjęcia które wyświetla się na kafelku z *Aktualnością*  
+**image_alt**: "Zdjęcie przedstawiające uchylone drzwi" // opis zdjęcia (na kafelku) opisujący treść zdjęcia (ważne dla dostępności strony)  
+**category**: Inne // każda aktualność powinna być przyporządkowana do kategorii, według których aktualności można filtrować  
+**type**: "aktualnosci"  
 
 #### Modyfikacja istniejącej *Aktualności*
 
@@ -57,25 +57,76 @@ Objaśnienie pól w pliku *aktualnosci/29-04-2020.md*:
 
 Wszystkie pliki dostępne do pobrania przez odwiedzających stronę i wyświetlanych w zakładce *Dokumenty do pobrania* muszą znajdować się w folderze *content/dokumenty-do-pobrania/* oraz wylistowane w pliku *content/dokumenty-do-pobrania/_index.md*
 
-Oznaczenia pól w pliku *dokumenty-do-pobrania/_index.md*:
+Oznaczenia pól w pliku *dokumenty-do-pobrania/_index.md*:  
 **title**: "Dokumenty do pobrania"  // Tytuł storny wyświetlany na granatowym tle ze zdjęciem na górze strony    
-**draft**: false
+**draft**: false  
 **bg_image**: "images/backgrounds/dokumenty-do-pobrania.jpg"  // link do zdjęcia wyświetlanego na górze strony pod granatowym tłem  
 **feature_item**:  
-   **name** : "Dokumenty do pobrania"
-   **icon** : "ti-download" # icon pack : https://themify.me/themify-icons
+   **name** : "Dokumenty do pobrania"  
+   **icon** : "ti-download" # icon pack : https://themify.me/themify-icons  
    **content** : "Wyszukaj i pobierz wszystkie potrzebne dokumenty."  // Treść wyświetlana na stronie głównej (ikona z opisem i linkiem do zakładki)  
-**description** : ""  // Opis który pojawiłby się pod tytułem strony na granatowym tle ze zdjęciem na górze zdtrony  
-**resources**:
- - **src**: borne-sulinowo-budynki-jednorodzinne.pdf  // Dokładna nazwa pliku z dokumentem umieszczonego w folderze
-   **title**: Harmonogram wywozu śmieci dla budynków jednorodzinnych w Bornem Sulinowie (pdf) // Nazwa pliku wyświetlana na liście w zakładce *Dokumenty do pobrania*  
+**description** : ""  // Opis który pojawiłby się pod tytułem strony na granatowym tle ze zdjęciem na górze zdtrony   
+**resources**:  
+ - **src**: borne-sulinowo-budynki-jednorodzinne.pdf  // Dokładna nazwa pliku z dokumentem umieszczonego w folderze  
+   **title**: Harmonogram wywozu śmieci dla budynków jednorodzinnych w Bornem Sulinowie (pdf) // Nazwa pliku wyświetlana na liście w zakładce *Dokumenty do pobrania*    
    **params**:  
-        **category**: harmonogramy // Każdy dokument powinien mieć przypisaną kategorię, inaczej będzie wyświetlany tylko w zakłądce *Wszystkie*
-        **order**: 5 // Kolejność w jakiej dokument ma się wyświetlić na liście
+        **category**: harmonogramy // Każdy dokument powinien mieć przypisaną kategorię, inaczej będzie wyświetlany tylko w zakłądce *Wszystkie*  
+        **order**: 5 // Kolejność w jakiej dokument ma się wyświetlić na liście  
+        
+ #### Dodawanie nowego dokumenty
+ 
+ 1. Umieść dokument w folderze *content/dokumenty-do-pobrania/*
+ 2. Dodaj do listy dokumentów nowy zapis (Rekomendowane: skopiuj zapis istniejącego już wcześniej dokumentu i tylko modyfikuj treść aby pasowała do nowego)  
+   ```
+    - src: borne-sulinowo-budynki-niezamieszkale.pdf
+      title: Harmonogram wywozu śmieci dla budynków niezamieszkałych w Bornem Sulinowie (pdf)
+      params:
+          category: harmonogramy
+          order: 7
+   ```
         
 ##### Ważne!!! Dokument wylistowany w pliku *_index.md* musi istnieć i znajdować się w folderze *dokumenty-do-pobrania*
 
-## Publikacja
+3. Przejdź do [Publikacja zmian](#publikacja-zmian)
+
+### Harmonogram odbioru odpadów
+
+Opis pól pliku *content/harmonogram-odbioru-odpadow/_index.md*
+**title**: "Harmonogram odbioru odpadów" // Tytuł storny wyświetlany na granatowym tle ze zdjęciem na górze strony    
+**short_name**: "Harmonogramy" // Krótka nazwa zakładki do wyświetlania w stopce strony  
+**draft**: false  
+**bg_image**: "images/backgrounds/harmonogram.jpg"  // link do zdjęcia wyświetlanego na górze strony pod granatowym tłem    
+**feature_item**:
+   **name** : "Harmonogram"  
+   **icon** : "ti-calendar" # icon pack : https://themify.me/themify-icons  
+   **content** : "Sprawdź aktualny harmonogram na rok 2020/2021."  // Treść skrótu (ikona + opis) na stronie głównej  
+**category**: "harmonogram" // Nazwa kategorii aktualności przypisana do Harmonogramów  
+**aktualnosci_enabled**: "True" // Opcja do wyświetlania aktualności z kategorii powyżej pod główną treścią zakładki.  Opcje: True lub False  
+
+Opis pól pliku *content/harmonogram-odbioru-odpadów/rejon1.md*:
+**title**: "Rejon I z utrudnionym dojazdem" // Tytuł kafelka z kalendarzem  
+**draft**: false  
+**download**: "rejon1.pdf" // Dokładna nazwa pliku do pobrania  
+**description** : ""  
+**Id**: "rejon1-calendar"  
+**calendar**:  
+
+  - **name** : "Odpady Komunalne"  // Kategoria odpadów wyświetlana w legendzie kalendarza  
+    **dates** : ["2020,12,2","2020,12,16","2020,12,30","2020,1,13","2020,1,27","2020,2,10","2020,2,24","2020,3,10","2020,3,24","2020,4,7","2020,4,21"]  // Daty wywozu odpadów z danej kategorii do zaznaczenia na kalendarzu  
+    **color** : "#000000"  
+    
+#### Aktualizacja dat wywozy odpadów
+
+Wszystkie wyminione daty zostaną zaznaczone na kalendarzu odpowiadającym kolorem. Data musi myć w środku cudzysłowia w formacie RRRR,MM,DD (dopuszczalne obie formy dnia i miesiąca z uzupełniającym zerem (2020,04,01) lub bez (2020,4,1)  Dodatkowo daty muszą być oddzielone od siebie przecinkami.
+
+#### Aktualizacja listy podmiotów których dotyczy wywóz
+
+Lista podmiotów znajduje się w każdym pliku z harmonogramem do drugim znaczniku "---" Pod tytułem: "Kogo dotyczy?"
+
+
+#### Po aktualizacji harmonogramów przejdź do [Publikacja zmian](#publikacja-zmian)
+
+## Publikacja zmian
 
 1. Kiedy zmiany są gotowe do publikacji, pod edytorem tekstu znajdować się będzie okno zatytułowane **Commit changes**. 
 2. W pierwszym polu należy wpisać nazwę zmiany, np. "Zmiana tytułu w zakładce Aktualności" oraz (opcjonalnie) wyjaśnienie wprowadzonych zmian w kolejnym polu.
