@@ -91,7 +91,7 @@ Oznaczenia pól w pliku *dokumenty-do-pobrania/_index.md*:
 
 ### Harmonogram odbioru odpadów
 
-Opis pól pliku *content/harmonogram-odbioru-odpadow/_index.md*
+Opis pól pliku *content/harmonogram-odbioru-odpadow/_index.md*  
 **title**: "Harmonogram odbioru odpadów" // Tytuł storny wyświetlany na granatowym tle ze zdjęciem na górze strony    
 **short_name**: "Harmonogramy" // Krótka nazwa zakładki do wyświetlania w stopce strony  
 **draft**: false  
@@ -103,7 +103,7 @@ Opis pól pliku *content/harmonogram-odbioru-odpadow/_index.md*
 **category**: "harmonogram" // Nazwa kategorii aktualności przypisana do Harmonogramów  
 **aktualnosci_enabled**: "True" // Opcja do wyświetlania aktualności z kategorii powyżej pod główną treścią zakładki.  Opcje: True lub False  
 
-Opis pól pliku *content/harmonogram-odbioru-odpadów/rejon1.md*:
+Opis pól pliku *content/harmonogram-odbioru-odpadów/rejon1.md*:  
 **title**: "Rejon I z utrudnionym dojazdem" // Tytuł kafelka z kalendarzem  
 **draft**: false  
 **download**: "rejon1.pdf" // Dokładna nazwa pliku do pobrania  
@@ -134,6 +134,53 @@ Lista podmiotów znajduje się w każdym pliku z harmonogramem do drugim znaczni
 4. Aby sprawdzić czy zmiany zostały poprawnie opublikowane można wejść w zakładkę *Actions* i poszukać czy przy nazwie którą nadaliśmy dla naszych zmian znajduje się zielony ptaszek. Jeśli jednak pojawił się tam czerwony krzyżyk patrz: [Raportowanie problemów](#raportowanie)
 
 Ad. 3. Jeśli nie jesteśmy pewni wprowadzonych zmian możemy albo unieważnić zmiany czerwonym przyciskiem *Cancel* albo zaznaczyć checkbox *Create a new branch for this commit and start a pull request. Learn more about pull requests.* i dopiero potem kliknąć *Commit changes* Takie zmiany będą czekały na zatwierdzenie przeze mnie.
+
+## Formatowanie tekstu
+Najczęściej używane formatowanie tekstu można osiągnąć za pomocą (Do zastosowania po drugim znaczniku "---" w plikach .md):  
+1. Lista (gwiazdka):
+```
+* Zużyte kartridże i tonery;
+* Przepracowane oleje;
+* Przeterminowane leki;
+```
+2. Pogrubienie tekstu (podwójna gwiazdka)
+```
+**Odpady**
+```
+3. Nagłówki (hasztagi #,##,###,####,#####)
+```
+### Co możesz oddać do PSZOK?
+```
+4. Kursywa (Pojedyńcza gwiazdka)
+```
+*Odpady*
+```
+5. Nowa linia (podwójna spacja na końcu linii)
+
+### Linkowanie
+
+Jest to spósób na tworzenie linków (dokumentów do pobrania, linków zewnętrznych lub zakładek na stronie) w treści właściwej plików .md, czyli po drugim znaczniku "---".
+
+#### Linkowanie dokumentu do pobrania
+```
+[tutaj]({{< resource "regulamin-PSZOK-wodociągowa.pdf" >}})
+```
+tutaj -> tekst służący jako link
+"regulamin..." -> dokładna nazwa pliku do pobrania
+
+#### Linkowanie linku zewnętrznego
+```
+[tutaj](http://bornesulinowo.artlookgallery.com/grobonet/start.php)
+```
+tutaj -> tekst służący jako link
+(https://bo...) -> w nawiasach link prowadzący poza stronę PUKu
+
+lub po prostu: 
+```
+http://bornesulinowo.artlookgallery.com/grobonet/start.php
+```
+
+#### Linkowanie do zakładki na stronie
 
 ## Raportowanie problemów
 
