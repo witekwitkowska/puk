@@ -1,5 +1,5 @@
 ---
-title: "Cmentarze komunalne test edytorial"
+title: "Cmentarze komunalne"
 short_name: "Cmentarze"
 draft: false
 # page title background image
