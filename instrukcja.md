@@ -18,7 +18,7 @@ Wszystkie treści dostępne do edytowania znajdują się w folderze *content/*, 
 
 Aby modyfikować plik należy najpierw znaleźć plik, który chcemy zmienić (zakładka *Code* folder *content* / *folder odpowiedniej zakładki* / *nasz plik* ) otworzyć go w trybie do przeglądania (klikając w jego nazwę) a potem kliknąć w ikonę długopisu w jego prawym górnym rogu ( *Edit this file* ). W większości przypadków będzie to plik *_index.md*. Należy edytować tylko wybrane treści i nic poza tym! Wszystkie pozostałe elementy nawet takie jak np "---" są ważne przy konpilowaniu strony! 
 
-Oprócz pól z informacjami takimi jak tytuł strony czy data publikacji postu pod drugim znacznikiem "---" znajduje się treść właściwa strony. Treść ta formatowana jest według zasad języka markdown. Podstawowe zasady formatowania tutaj: [Formatowanie tekstu](#formatowanie)
+Oprócz pól z informacjami takimi jak tytuł strony czy data publikacji postu pod drugim znacznikiem "---" znajduje się treść właściwa strony. Treść ta formatowana jest według zasad języka markdown. Podstawowe zasady formatowania tutaj: [Formatowanie tekstu](#formatowanie-tekstu)
 
 ### Aktualności
 
@@ -44,14 +44,14 @@ Objaśnienie pól w pliku *aktualnosci/29-04-2020.md*:
 #### Modyfikacja istniejącej *Aktualności*
 
 1. Zmienić treści na aktulne i tylko te co do których mamy pewność
-2. Kiedy jesteśmy zadowoleni ze zmian przejść do działu: [Publikacja zmian](#publikacja)
+2. Kiedy jesteśmy zadowoleni ze zmian przejść do działu: [Publikacja zmian](#publikacja-zmian)  
 
 #### Utworzenie nowej *Aktualności*
 
 1. Będąc w folderze *content/aktualnosci* przycisnąć *Add file*, nazwać go według konwencji dd-mm-rrr.md
 2. Aby wyeliminować możliwe błędy skopuj i wklej do nowego pliku całą treść z już istniejącej i poprawnie działającej *Aktualności*
 3. Modyfikuj treści aby pasowały do nowej *Aktualności*
-4. Kiedy jesteśmy zadowoleni ze zmian przejść do działu: [Publikacja zmian](#publikacja)
+4. Kiedy jesteśmy zadowoleni ze zmian przejść do działu: [Publikacja zmian](#publikacja-zmian)  
 
 ### Dokumenty do pobrania
 
@@ -87,7 +87,7 @@ Oznaczenia pól w pliku *dokumenty-do-pobrania/_index.md*:
         
 ##### Ważne!!! Dokument wylistowany w pliku *_index.md* musi istnieć i znajdować się w folderze *dokumenty-do-pobrania*
 
-3. Przejdź do [Publikacja zmian](#publikacja-zmian)
+3. Przejdź do [Publikacja zmian](#publikacja-zmian)  
 
 ### Harmonogram odbioru odpadów
 
@@ -131,7 +131,7 @@ Lista podmiotów znajduje się w każdym pliku z harmonogramem do drugim znaczni
 1. Kiedy zmiany są gotowe do publikacji, pod edytorem tekstu znajdować się będzie okno zatytułowane **Commit changes**. 
 2. W pierwszym polu należy wpisać nazwę zmiany, np. "Zmiana tytułu w zakładce Aktualności" oraz (opcjonalnie) wyjaśnienie wprowadzonych zmian w kolejnym polu.
 3. Jeśli jesteśmy pewni wprowadzonych zmain ( powinien być zaznaczony checkbox *Commit directly to the initial branch.* ) zatwierdzić zmiany klikając zielony przycisk *Commit changes". W przeciągu 30 sec do 2 minut zmiany powinny być widoczne na stronie.
-4. Aby sprawdzić czy zmiany zostały poprawnie opublikowane można wejść w zakładkę *Actions* i poszukać czy przy nazwie którą nadaliśmy dla naszych zmian znajduje się zielony ptaszek. Jeśli jednak pojawił się tam czerwony krzyżyk patrz: [Raportowanie problemów](#raportowanie)
+4. Aby sprawdzić czy zmiany zostały poprawnie opublikowane można wejść w zakładkę *Actions* i poszukać czy przy nazwie którą nadaliśmy dla naszych zmian znajduje się zielony ptaszek. Jeśli jednak pojawił się tam czerwony krzyżyk patrz: [Raportowanie problemów](#raportowanie-problemów)  
 
 Ad. 3. Jeśli nie jesteśmy pewni wprowadzonych zmian możemy albo unieważnić zmiany czerwonym przyciskiem *Cancel* albo zaznaczyć checkbox *Create a new branch for this commit and start a pull request. Learn more about pull requests.* i dopiero potem kliknąć *Commit changes* Takie zmiany będą czekały na zatwierdzenie przeze mnie.
 
