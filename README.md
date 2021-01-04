@@ -1,1 +1,3 @@
-Static website for PUK Borne Sulinowo
+# Static website for PUK Borne Sulinowo
+
+[Jak edytować](instrukcja.md)
