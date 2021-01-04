@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://puk-bornesulinowo.pl/"
-title = "Przedsiębiorstwo Usług Komunalnych w Bornem Sulinowie"
+title = "Przedsiębiorstwo Usług Komunalnych Spółka z o. o."
 theme = "puk-theme"
 # post pagination
 paginate = "6"
