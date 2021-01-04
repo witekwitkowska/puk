@@ -137,51 +137,55 @@ Ad. 3. Jeśli nie jesteśmy pewni wprowadzonych zmian możemy albo unieważnić 
 
 ## Formatowanie tekstu
 Najczęściej używane formatowanie tekstu można osiągnąć za pomocą (Do zastosowania po drugim znaczniku "---" w plikach .md):  
-1. Lista (gwiazdka):
+1. Lista (gwiazdka):  
 ```
 * Zużyte kartridże i tonery;
 * Przepracowane oleje;
 * Przeterminowane leki;
 ```
-2. Pogrubienie tekstu (podwójna gwiazdka)
+2. Pogrubienie tekstu (podwójna gwiazdka)  
 ```
 **Odpady**
 ```
-3. Nagłówki (hasztagi #,##,###,####,#####)
+3. Nagłówki (hasztagi #,##,###,####,#####)  
 ```
 ### Co możesz oddać do PSZOK?
 ```
-4. Kursywa (Pojedyńcza gwiazdka)
+4. Kursywa (Pojedyńcza gwiazdka)  
 ```
 *Odpady*
 ```
-5. Nowa linia (podwójna spacja na końcu linii)
+5. Nowa linia (podwójna spacja na końcu linii)  
 
 ### Linkowanie
 
-Jest to spósób na tworzenie linków (dokumentów do pobrania, linków zewnętrznych lub zakładek na stronie) w treści właściwej plików .md, czyli po drugim znaczniku "---".
+Jest to spósób na tworzenie linków (dokumentów do pobrania, linków zewnętrznych lub zakładek na stronie) w treści właściwej plików .md, czyli po drugim znaczniku "---".  
 
-#### Linkowanie dokumentu do pobrania
+#### Linkowanie dokumentu do pobrania  
 ```
 [tutaj]({{< resource "regulamin-PSZOK-wodociągowa.pdf" >}})
 ```
-tutaj -> tekst służący jako link
-"regulamin..." -> dokładna nazwa pliku do pobrania
+tutaj -> tekst służący jako link  
+"regulamin..." -> dokładna nazwa pliku do pobrania  
 
-#### Linkowanie linku zewnętrznego
+#### Linkowanie linku zewnętrznego  
 ```
 [tutaj](http://bornesulinowo.artlookgallery.com/grobonet/start.php)
 ```
-tutaj -> tekst służący jako link
-(https://bo...) -> w nawiasach link prowadzący poza stronę PUKu
+tutaj -> tekst służący jako link  
+(https://bo...) -> w nawiasach link prowadzący poza stronę PUKu  
 
-lub po prostu: 
+lub po prostu:   
 ```
 http://bornesulinowo.artlookgallery.com/grobonet/start.php
 ```
 
 #### Linkowanie do zakładki na stronie
-
+```
+[tutaj]({{< ref "/dokumenty-do-pobrania" >}})
+```
+tutaj -> tekst służący jako link  
+"/dokumenty-do-po.." -> w cudzysłowie URL do odpowiedniej zakładki  
 ## Raportowanie problemów
 
 Problemy lub pytania dotyczące modyfikowania i publikowania treści ( jak i prośby o upoważnienie osób do edycji strony ) proszę zgłaszać w następujący sposób:
