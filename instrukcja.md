@@ -1,14 +1,14 @@
 # Jak edytować stronę PUK Borne Sulinowo?
 
 - [Słowo wstępu](#słowo-wstępu)
-- [Redakcja treści](#redakcja)
+- [Redakcja treści](#redakcja-treści)
   * [Aktualności](#aktualności)
   * [Dokumenty do pobrania](#dokumenty-do-pobrania)
   * [Harmonogram odbioru odpadów](#harmonogram-odbioru-odpadów)
-- [Publikacja zmian](#publikacja)
-- [Formatowanie tekstu](#formatowanie)
+- [Publikacja zmian](#publikacja-zmian)
+- [Formatowanie tekstu](#formatowanie-tekstu)
 - [Linkowanie](#linkowanie)
-- [Raportowanie problemów](#raportowanie)
+- [Raportowanie problemów](#raportowanie-problemów)
 
 ## Słowo wstępu
 
@@ -53,6 +53,28 @@ Objaśnienie pól w pliku *aktualnosci/29-04-2020.md*:
 3. Modyfikuj treści aby pasowały do nowej *Aktualności*
 4. Kiedy jesteśmy zadowoleni ze zmian przejść do działu: [Publikacja zmian](#publikacja)
 
+### Dokumenty do pobrania
+
+Wszystkie pliki dostępne do pobrania przez odwiedzających stronę i wyświetlanych w zakładce *Dokumenty do pobrania* muszą znajdować się w folderze *content/dokumenty-do-pobrania/* oraz wylistowane w pliku *content/dokumenty-do-pobrania/_index.md*
+
+Oznaczenia pól w pliku *dokumenty-do-pobrania/_index.md*:
+**title**: "Dokumenty do pobrania"  // Tytuł storny wyświetlany na granatowym tle ze zdjęciem na górze strony    
+**draft**: false
+**bg_image**: "images/backgrounds/dokumenty-do-pobrania.jpg"  // link do zdjęcia wyświetlanego na górze strony pod granatowym tłem  
+**feature_item**:  
+   **name** : "Dokumenty do pobrania"
+   **icon** : "ti-download" # icon pack : https://themify.me/themify-icons
+   **content** : "Wyszukaj i pobierz wszystkie potrzebne dokumenty."  // Treść wyświetlana na stronie głównej (ikona z opisem i linkiem do zakładki)  
+**description** : ""  // Opis który pojawiłby się pod tytułem strony na granatowym tle ze zdjęciem na górze zdtrony  
+**resources**:
+ - **src**: borne-sulinowo-budynki-jednorodzinne.pdf  // Dokładna nazwa pliku z dokumentem umieszczonego w folderze
+   **title**: Harmonogram wywozu śmieci dla budynków jednorodzinnych w Bornem Sulinowie (pdf) // Nazwa pliku wyświetlana na liście w zakładce *Dokumenty do pobrania*  
+   **params**:  
+        **category**: harmonogramy // Każdy dokument powinien mieć przypisaną kategorię, inaczej będzie wyświetlany tylko w zakłądce *Wszystkie*
+        **order**: 5 // Kolejność w jakiej dokument ma się wyświetlić na liście
+        
+##### Ważne!!! Dokument wylistowany w pliku *_index.md* musi istnieć i znajdować się w folderze *dokumenty-do-pobrania*
+
 ## Publikacja
 
 1. Kiedy zmiany są gotowe do publikacji, pod edytorem tekstu znajdować się będzie okno zatytułowane **Commit changes**. 
@@ -60,7 +82,7 @@ Objaśnienie pól w pliku *aktualnosci/29-04-2020.md*:
 3. Jeśli jesteśmy pewni wprowadzonych zmain ( powinien być zaznaczony checkbox *Commit directly to the initial branch.* ) zatwierdzić zmiany klikając zielony przycisk *Commit changes". W przeciągu 30 sec do 2 minut zmiany powinny być widoczne na stronie.
 4. Aby sprawdzić czy zmiany zostały poprawnie opublikowane można wejść w zakładkę *Actions* i poszukać czy przy nazwie którą nadaliśmy dla naszych zmian znajduje się zielony ptaszek. Jeśli jednak pojawił się tam czerwony krzyżyk patrz: [Raportowanie problemów](#raportowanie)
 
-*3. Jeśli nie jesteśmy pewni wprowadzonych zmian możemy albo unieważnić zmiany czerwonym przyciskiem *Cancel* albo zaznaczyć checkbox *Create a new branch for this commit and start a pull request. Learn more about pull requests.* i dopiero potem kliknąć *Commit changes* Takie zmiany będą czekały na zatwierdzenie przeze mnie.
+Ad. 3. Jeśli nie jesteśmy pewni wprowadzonych zmian możemy albo unieważnić zmiany czerwonym przyciskiem *Cancel* albo zaznaczyć checkbox *Create a new branch for this commit and start a pull request. Learn more about pull requests.* i dopiero potem kliknąć *Commit changes* Takie zmiany będą czekały na zatwierdzenie przeze mnie.
 
 ## Raportowanie problemów
 
