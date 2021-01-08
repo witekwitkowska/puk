@@ -49,17 +49,5 @@ type: "pszok"
 * Padłych zwierząt;
 
 
-
-### Adres i godziny otwarcia
-
-
-Punkt znajduje się przy ulicy Wodociągowej w Bornem Sulinowie i jest czynny w godzinach:
-
-
-* Poniedziałek 14.00 - 17.00
-* Środa 12.00 - 15.00
-* Piątek 12.00 - 15.00
-
-
 **Sprawdź [szczegółowy regulamin]({{< resource "regulamin-PSZOK-wodociągowa.pdf" >}})**
 **oraz [cennik PSZOK.]({{< resource "cennik-odpadów-przyjmowanych-do-PSZOK.pdf" >}})** 
