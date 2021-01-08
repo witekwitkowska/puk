@@ -16,11 +16,11 @@ description : ""
 ---
 
 
-### Jak zawrzeć umowę? ###
-- Pobierz odpowiedni wzór umowy – znajdziesz go w sekcji dokumenty do pobrania.
--  Wypełnij umowę i złóż ją w siedzibie PUK wraz z tytułem prawnym lub oświadczeniem o prawie do dysponowania nieruchomością. W przypadku podmiotów prowadzących działalność gospodarczą niezbędny będzie również NIP, REGON lub wypis KRS.
--  W ciągu 14 dni otrzymasz od nas decyzję.
+### Jeżeli chcesz wykonać przyłącze do miejskiej sieci ciepłowniczej: ###
+- Wypełnij i złóż [wniosek o wydanie warunków przyłączenia do miejskiej sieci ciepłowniczej.]({{< resource "Wniosek O WYDANIE WAR CIEPL.doc" >}})
+- Skontktuj się z nami! Opłaty i termin wykonania przyłącza ustalane są indywidualnie.
 
-### Jeśli chcesz wykonać przyłącze do miejskiej sieci ciepłowniczej ###
-- Przygotuj dokumentację techniczną i geodezyjną, projekt przyłącza oraz zezwolenie na budowę.
-- Skontaktuj się z nami! Opłaty i termin wykonania przyłącza ustalane są indywidualnie.
+### Jak zawrzeć umowę? ###
+- Wypełnij i złóż wniosek o zawarcie umowy na dostawę energii cieplnej wraz z wymaganymi załącznikami.
+- Wypełnij i złóż [wniosek o zamówienie mocy cieplnej.]({{< resource "załącznik-nr-1-do-umowy-wnisoek-o-zamówienie-mocy.pdf" >}})
+- W ciągu 14 dni podpiszemy [umowę.]({{< resource "umowa-sprzedaży-ciepła-wzór.pdf" >}})
