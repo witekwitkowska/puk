@@ -12,11 +12,10 @@ feature_item:
    content : "Świadczymy usługi profesjonalnego administrowania nieruchomościami."
 
 # meta description
-description : ""
+description : "Oferujemy Państwu profesjonalne usługi administrowania nieruchomościami. Administrację zawsze prowadzimy w oparciu o najnowsze przepisy zawarte w "Ustawie o własności lokali", "Ustawie o gospodarce nieruchomościami", "Kodeksie cywilnym", "Prawie budowlanym" i innych aktach prawnych."
 ---
 
 ## Administrowanie Wspólnotami Mieszkaniowymi ##
-Oferujemy Państwu profesjonalne usługi administrowania nieruchomościami. Administrację zawsze prowadzimy w oparciu o najnowsze przepisy zawarte w "Ustawie o własności lokali", "Ustawie o gospodarce nieruchomościami", "Kodeksie cywilnym", "Prawie budowlanym" i innych aktach prawnych.
 
 
 ### W ramach administrowania nieruchomościami zajmujemy się:
