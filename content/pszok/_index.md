@@ -37,6 +37,8 @@ type: "pszok"
 * Odpady wielkogabarytowe, np. meble, wykładziny, dywany, drabiny metalowe, wózki dziecięce, rowery, części armatury sanitarnej i inne elementy wyposażenia mieszkań;
 * Do 8 sztuk opon rocznie na nieruchomość;
 
+
+
 ### PSZOK nie przyjmuje:
 
 
@@ -45,6 +47,8 @@ type: "pszok"
 * Części samochodowych, motorowerów, kosiarek spalinowych;
 * Szkła zbrojonego i hartowanego;
 * Padłych zwierząt;
+
+
 
 ### Adres i godziny otwarcia
 
