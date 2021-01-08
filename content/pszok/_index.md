@@ -13,13 +13,13 @@ feature_item:
    content : "Pozbądź się wygodnie odpadów wielkogabarytowych."
 # meta description
 description : ""
-side_description: "PSZOK, czyli Punkt Selektywnej Zbiórki Odpadów Komunalnych to miejsce stworzone specjalnie dla mieszkańców Gminy Borne Sulinowo. Mogą oni bezpłatnie oddać do niego różnego rodzaju odpady niezmieszane oraz wielkogabarytowe. Z Punktu mogą skorzystać również podmioty gospodarcze po wniesieniu odpowiednich opłat określonych w cenniku."
+side_description: "PSZOK, czyli Punkt Selektywnej Zbiórki Odpadów Komunalnych to miejsce stworzone dla mieszkańców Gminy Borne Sulinowo, gdzie każdy mieszkaniec może w ramach uiszczanej opłaty za gospodarowanie odpadami komunalnymi, pozostawić nieodpłatnie wymienione poniżej odpady pochodzące z gospodarstw domowych."
 side_description_title: "Czym jest PSZOK?"
 # type
 type: "pszok"
 ---
 
-### Co możesz oddać do PSZOK?
+### Co można oddać do PSZOK?
 
 
 * Zużyty sprzęt elektryczny i elektroniczny, np. urządzenia radiowe i telewizyjne, sprzęt komputerowy, AGD, żarówki i świetlówki, baterie, akumulatory, lampy, elektryczne i elektroniczne urządzenia pomiarowe, przewody elektryczne itp.;
@@ -38,16 +38,25 @@ type: "pszok"
 * Odpady wielkogabarytowe, np. meble, wykładziny, dywany, drabiny metalowe, wózki dziecięce, rowery, części armatury sanitarnej i inne elementy wyposażenia mieszkań;
 * Do 8 sztuk opon rocznie na nieruchomość;
 
+### PSZOK nie przyjmuje:
 
 
-### Uwaga, PSZOK nie przyjmuje:
-
-
-
+* Zmieszanych odpadów komunalnych;
+* Odpadów zawierających azbest;
 * Części samochodowych, motorowerów, kosiarek spalinowych;
-* Odpadów remontowych typu gruz, płyty gipsowo-kartonowe, papa, okna;
-* Odpadów ogrodowych;
-* Worków na śmieci lub kartonów z odpadami domowymi.
+* Szkła zbrojonego i hartowanego;
+* Padłych zwierząt;
 
-**Szczegółowy regulamin targowiska znajdziesz [tutaj]({{< resource "regulamin-PSZOK-wodociągowa.pdf" >}})**
-**a Cennik [tutaj]({{< resource "cennik-odpadów-przyjmowanych-do-PSZOK.pdf" >}})** 
+### Adres i godziny otwarcia
+
+
+Punkt znajduje się przy ulicy Wodociągowej w Bornem Sulinowie i jest czynny w godzinach:
+
+
+* Poniedziałek 14.00 - 17.00
+* Środa 12.00 - 15.00
+* Piątek 12.00 - 15.00
+
+
+**Sprawdź [szczegółowy regulamin]({{< resource "regulamin-PSZOK-wodociągowa.pdf" >}})**
+**oraz [cennik PSZOK.]({{< resource "cennik-odpadów-przyjmowanych-do-PSZOK.pdf" >}})** 
