@@ -4,7 +4,7 @@ short_name: "PSZOK"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/pszok.jpg"
-illustration: "images/illustrations/targowisko-miejskie.png"
+illustration: "images/illustrations/pszok.png"
 illustration_alt: "Ilustracja przedstawiająca różne przedmioty, które można oddać do PSZOK"
 godziny_otwarcia: ["Poniedziałek 14.00 – 17.00", "Środa 12.00 – 15.00", "Piątek 12.00 – 15.00"]
 feature_item:
