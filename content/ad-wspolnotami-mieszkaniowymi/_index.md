@@ -4,7 +4,7 @@ short_name: "Ws. mieszkaniowe"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/ad-wspolnotami-mieszkaniowymi.jpg"
-illustration: "images/illustrations/targowisko-miejskie.png"
+illustration: "images/illustrations/ws-mieszkaniowe.png"
 illustration_alt: "Ilustracja przedstawiająca dłonie wymieniające towary na pieniądze"
 feature_item:
    name : "Adm. Wspólnotami Mieszkaniowymi"
