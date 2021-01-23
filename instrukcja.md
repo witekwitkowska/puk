@@ -5,6 +5,7 @@
   * [Aktualności](#aktualności)
   * [Dokumenty do pobrania](#dokumenty-do-pobrania)
   * [Harmonogram odbioru odpadów](#harmonogram-odbioru-odpadów)
+  * [Pozostałe](#pozostałe)
 - [Publikacja zmian](#publikacja-zmian)
 - [Formatowanie tekstu](#formatowanie-tekstu)
 - [Linkowanie](#linkowanie)
@@ -16,7 +17,7 @@ Wszystkie treści dostępne do edytowania znajdują się w folderze *content/*, 
 
 ## Redakcja treści
 
-Aby modyfikować plik należy najpierw znaleźć plik, który chcemy zmienić (zakładka *Code* folder *content* / *folder odpowiedniej zakładki* / *nasz plik* ) otworzyć go w trybie do przeglądania (klikając w jego nazwę) a potem kliknąć w ikonę długopisu w jego prawym górnym rogu ( *Edit this file* ). W większości przypadków będzie to plik *_index.md*. Należy edytować tylko wybrane treści i nic poza tym! Wszystkie pozostałe elementy nawet takie jak np "---" są ważne przy konpilowaniu strony! 
+Aby modyfikować plik należy najpierw znaleźć plik, który chcemy zmienić (zakładka *Code* folder *content* / *folder odpowiedniej zakładki* / *nasz plik* ) otworzyć go w trybie do przeglądania (klikając w jego nazwę) a potem kliknąć w ikonę długopisu w jego prawym górnym rogu ( *Edit this file* ). W większości przypadków będzie to plik *_index.md*. Należy edytować tylko wybrane treści i nic poza tym! Wszystkie pozostałe elementy nawet takie jak np "---" są ważne przy kompilowaniu strony! 
 
 Oprócz pól z informacjami takimi jak tytuł strony czy data publikacji postu pod drugim znacznikiem "---" znajduje się treść właściwa strony. Treść ta formatowana jest według zasad języka markdown. Podstawowe zasady formatowania tutaj: [Formatowanie tekstu](#formatowanie-tekstu)
 
@@ -27,7 +28,6 @@ Objaśnienie pól w pliku *aktualnosci/_index.md*:
 **short_name**: "Aktualności"   
 **draft**: false  
 **bg_image**: "images/backgrounds/aktualności.jpg" // link do zdjęcia wyświetlanego na górze strony pod granatowym tłem  
-**description** : "" // Opis który pojawiłby się pod tytułem strony na granatowym tle ze zdjęciem na górze zdtrony  
 
 Objaśnienie pól w pliku *aktualnosci/29-04-2020.md*:
 
@@ -35,7 +35,6 @@ Objaśnienie pól w pliku *aktualnosci/29-04-2020.md*:
 **date**: "2020-04-29T15:27:17+06:00" // Data która ma być przypisana do aktualności  
 **draft**: false  
 **bg_image**: "images/backgrounds/aktualności.jpg" // link do zdjęcia wyświetlanego na górze strony pod granatowym tłem  
-**description** : ""  
 **image**: "images/aktualnosci/drzwi.jpg" // link do zdjęcia które wyświetla się na kafelku z *Aktualnością*  
 **image_alt**: "Zdjęcie przedstawiające uchylone drzwi" // opis zdjęcia (na kafelku) opisujący treść zdjęcia (ważne dla dostępności strony)  
 **category**: Inne // każda aktualność powinna być przyporządkowana do kategorii, według których aktualności można filtrować  
@@ -64,8 +63,7 @@ Oznaczenia pól w pliku *dokumenty-do-pobrania/_index.md*:
 **feature_item**:  
    **name** : "Dokumenty do pobrania"  
    **icon** : "ti-download" # icon pack : https://themify.me/themify-icons  
-   **content** : "Wyszukaj i pobierz wszystkie potrzebne dokumenty."  // Treść wyświetlana na stronie głównej (ikona z opisem i linkiem do zakładki)  
-**description** : ""  // Opis który pojawiłby się pod tytułem strony na granatowym tle ze zdjęciem na górze zdtrony   
+   **content** : "Wyszukaj i pobierz wszystkie potrzebne dokumenty."  // Treść wyświetlana na stronie głównej (ikona z opisem i linkiem do zakładki)    
 **resources**:  
  - **src**: borne-sulinowo-budynki-jednorodzinne.pdf  // Dokładna nazwa pliku z dokumentem umieszczonego w folderze  
    **title**: Harmonogram wywozu śmieci dla budynków jednorodzinnych w Bornem Sulinowie (pdf) // Nazwa pliku wyświetlana na liście w zakładce *Dokumenty do pobrania*    
@@ -126,11 +124,16 @@ Lista podmiotów znajduje się w każdym pliku z harmonogramem do drugim znaczni
 
 #### Po aktualizacji harmonogramów przejdź do [Publikacja zmian](#publikacja-zmian)
 
+### Pozostałe
+#### Ad.wspólnotami mieszkaniowymi, Cmntarze, Energia Cieplna, Pszok, Targowisko miejskie
+
+Pozostałe strony zbudowane są według schematu tekst pod lewej stronie ilustracji, ilustracja po prawej, tekst drugiego, na dole oddzielonego linią od reszty. Oba te teksty edytujemy w części reprezentującą treść właściwą w pliku *_index.md* (po drugim znaczniku "---"). Natomiast są rozdzielonę między sobą znacznikiem "|||||" (5 x kreska pionowa). Tekst powyżej tego znacznika odpowiada tekstowi wyświetlanemu na stronie po lewej stronie ilustracji. Test po znaczniku "|||||" odpowiada tekstowi wyświetlanemu na całej szerokości strony pod długą poziomą linią.
+
 ## Publikacja zmian
 
 1. Kiedy zmiany są gotowe do publikacji, pod edytorem tekstu znajdować się będzie okno zatytułowane **Commit changes**. 
 2. W pierwszym polu należy wpisać nazwę zmiany, np. "Zmiana tytułu w zakładce Aktualności" oraz (opcjonalnie) wyjaśnienie wprowadzonych zmian w kolejnym polu.
-3. Jeśli jesteśmy pewni wprowadzonych zmain ( powinien być zaznaczony checkbox *Commit directly to the initial branch.* ) zatwierdzić zmiany klikając zielony przycisk *Commit changes". W przeciągu 30 sec do 2 minut zmiany powinny być widoczne na stronie.
+3. Jeśli jesteśmy pewni wprowadzonych zmain ( powinien być zaznaczony checkbox *Commit directly to the initial branch.* ) zatwierdzić zmiany klikając zielony przycisk *Commit changes*. W przeciągu 30 sec do 2 minut zmiany powinny być widoczne na stronie.
 4. Aby sprawdzić czy zmiany zostały poprawnie opublikowane można wejść w zakładkę *Actions* i poszukać czy przy nazwie którą nadaliśmy dla naszych zmian znajduje się zielony ptaszek. Jeśli jednak pojawił się tam czerwony krzyżyk patrz: [Raportowanie problemów](#raportowanie-problemów)  
 
 Ad. 3. Jeśli nie jesteśmy pewni wprowadzonych zmian możemy albo unieważnić zmiany czerwonym przyciskiem *Cancel* albo zaznaczyć checkbox *Create a new branch for this commit and start a pull request. Learn more about pull requests.* i dopiero potem kliknąć *Commit changes* Takie zmiany będą czekały na zatwierdzenie przeze mnie.
