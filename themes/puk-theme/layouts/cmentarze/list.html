@@ -4,14 +4,18 @@
 <section class="section-sm">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 mb-50 content" style="overflow-wrap: break-word;">
-                {{ .Content }}
+            <div class="col-lg-6 my-auto content" style="overflow-wrap: break-word;">
+                {{ $content_parts := split .Content "|||||" }}
+                {{ index $content_parts 0 | safe.HTML}}
             </div>
         </div>
         <div class="row">
             <!-- border -->
-            <div class="col-12 mt-4 order-4">
+            <div class="col-12 mt-4">
                 <div class="border-bottom border-primary"></div>
+            </div>
+            <div class="col-12 my-5 content">
+                {{ index $content_parts 1 | safe.HTML}}
             </div>
         </div>
     </div>

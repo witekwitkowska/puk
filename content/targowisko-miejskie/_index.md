@@ -11,10 +11,7 @@ feature_item:
    icon : "ti-shopping-cart-full" # icon pack : https://themify.me/themify-icons
    content : "Sprawdź godziny otwarcia targowiska „Mój rynek”."
 
-# meta description
-description : ""
 ---
-
 ## Targowisko miejskie ##
 
 **Targowisko miejskie jest czynne w:**
@@ -22,4 +19,3 @@ description : ""
 - soboty w godzinach 6.00-14.00
 
 Szczegółowy regulamin targowiska znajdziesz [tutaj]({{< resource "Regulamin_targowiska_stalego_Moj_Rynek.pdf" >}})
-

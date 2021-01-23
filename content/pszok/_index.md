@@ -5,19 +5,24 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/pszok.jpg"
 illustration: "images/illustrations/pszok.png"
-illustration_alt: "Ilustracja przedstawiająca różne przedmioty, które można oddać do PSZOK"
+illustration_alt: "Ilustracja przedstawiająca pudło w którym spakowane są stara lampa, parę książek, koło od roweru i roślina doniczkowa"
 godziny_otwarcia: ["Poniedziałek 14.00 – 17.00", "Środa 12.00 – 15.00", "Piątek 12.00 – 15.00"]
 feature_item:
    name : "PSZOK"
    icon : "ti-trash" # icon pack : https://themify.me/themify-icons
    content : "Pozbądź się wygodnie odpadów wielkogabarytowych."
-# meta description
-description : ""
-side_description: "PSZOK, czyli Punkt Selektywnej Zbiórki Odpadów Komunalnych to miejsce stworzone dla mieszkańców Gminy Borne Sulinowo, gdzie każdy mieszkaniec może w ramach uiszczanej opłaty za gospodarowanie odpadami komunalnymi, pozostawić nieodpłatnie wymienione poniżej odpady pochodzące z gospodarstw domowych."
-side_description_title: "Czym jest PSZOK?"
 # type
 type: "pszok"
 ---
+## Czym jest PSZOK?
+PSZOK, czyli Punkt Selektywnej Zbiórki Odpadów Komunalnych to miejsce stworzone dla mieszkańców Gminy Borne Sulinowo, gdzie każdy mieszkaniec może w ramach uiszczanej opłaty za gospodarowanie odpadami komunalnymi, pozostawić nieodpłatnie wymienione poniżej odpady pochodzące z gospodarstw domowych.
+### Adres i godziny otwarcia
+Punkt znajduje się przy ulicy Wodociągowej w Bornem Sulinowie i jest czynny w godzinach:
+* Poniedziałek 14:00 - 17:00
+* Środa 12:00 - 15:00
+* Piątek 12:00 - 15:00
+
+|||||
 
 ### Co można oddać do PSZOK?
 

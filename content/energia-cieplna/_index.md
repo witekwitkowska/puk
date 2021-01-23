@@ -6,15 +6,17 @@ draft: false
 bg_image: "images/backgrounds/energia-cieplna.jpg"
 illustration: "images/illustrations/energia-cieplna.png"
 illustration_alt: "Ilustracja przedstawiająca chmurkę zapakowaną w walizkę"
-aktualna_taryfa: "taryfa-ciepła.pdf"
 feature_item:
    name : "Energia Cieplna"
    icon : "ti-panel" # icon pack : https://themify.me/themify-icons
    content : "Sprawdź aktualną taryfę i dowiedz się jak podpisać umowę na dostawę ciepła."
-# meta description
-description : ""
+
 ---
 
+## Energia Cieplna 
+### Aktualną taryfę ciepła znajdziesz [tutaj.]({{< resource "taryfa-ciepła.pdf" >}})
+
+|||||
 
 ### Jeżeli chcesz wykonać przyłącze do miejskiej sieci ciepłowniczej: ###
 - Wypełnij i złóż [wniosek o wydanie warunków przyłączenia do miejskiej sieci ciepłowniczej.]({{< resource "Wniosek O WYDANIE WAR CIEPL.doc" >}})
