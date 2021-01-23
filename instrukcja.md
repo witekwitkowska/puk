@@ -100,6 +100,8 @@ Opis pól pliku *content/harmonogram-odbioru-odpadow/_index.md*
    **content** : "Sprawdź aktualny harmonogram na rok 2020/2021."  // Treść skrótu (ikona + opis) na stronie głównej  
 **category**: "harmonogram" // Nazwa kategorii aktualności przypisana do Harmonogramów  
 **aktualnosci_enabled**: "True" // Opcja do wyświetlania aktualności z kategorii powyżej pod główną treścią zakładki.  Opcje: True lub False  
+**data_min:** "01/05/2020" // zakres kalendarza (min-max), czyli ile miesięcy można "przeklikać, zakres powinien zawierać wszystkie daty z harmonogramu wywozu aby były widoczne na stronie
+**data_max:** "01/12/2021" //
 
 Opis pól pliku *content/harmonogram-odbioru-odpadów/rejon1.md*:  
 **title**: "Rejon I z utrudnionym dojazdem" // Tytuł kafelka z kalendarzem  
