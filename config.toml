@@ -124,8 +124,8 @@ URL = "pszok"
 logo = "images/logo.png"
 calendar_mock = "images/calendar-mockup.jpg"
 # Meta data
-description = "This is meta description"
-author = "Kasia"
+description = "Strona Przesiębiorstwa Usług Komunalnych w Bornem Sulinowie. Administracja wspólnotami mieszkaniowymi, Cmentarze, Energia cieplna, Harmonogram odbioru odpadów, PSZOK, Targowisko miejskie"
+author = "PUK"
 # contact info
 address = "ul. Targowa 5"
 address2 = "78-449 Borne Sulinowo"
