@@ -1,5 +1,5 @@
 ---
-title: "Administrowanie wspólnotami Mieszkaniowymi"
+title: "Administrowanie Wspólnotami Mieszkaniowymi"
 short_name: "Ws. mieszkaniowe"
 draft: false
 # page title background image
