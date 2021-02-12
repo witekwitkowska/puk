@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+
+
+<section class="error-page" style="height: 100vh;">
+    <div class="container"
+         style=" position: absolute; top:50%; left: 50%; transform:translate(-50%, -50%); -webkit-transform:translate(-50%, -50%);">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <img class="img-fluid w-100 mx-auto mb-40" src="{{`images/error-404.gif`| relURL}}"
+                     alt="Dziewczynka opierająca się wiatrowi">
+            </div>
+            <div class="col-12 mx-auto">
+                <div class="align-items-center section-title justify-content-between">
+                    <h2 class="mt-100 text-center mb-40">Ups, podana strona nie istnieje...</h2>
+                    <div class="text-center">
+                        <a href="{{ .Site.BaseURL }}"
+                           class="btn btn-sm btn-secondary">Strona główna</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</body>
+
+</html>
+
