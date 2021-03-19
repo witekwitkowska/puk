@@ -21,7 +21,7 @@
         <div class="row filtr-container m-auto">
             {{ range .Data.Pages }}
             <div data-category="{{ .Params.Category | urlize }}" class="col-lg-4 col-sm-6 filtr-item"
-                 style="height: 480px !important;">
+                 style="height: 500px !important;">
                 {{ .Render "aktualnosci" }}
             </div>
             {{ end }}
