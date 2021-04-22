@@ -7,6 +7,9 @@ body {
   background: lighten($color: $primary-color, $amount: 10);
   color: $white;
 }
+:focus-visible {
+    outline: 3px solid black !important;
+}
 
 /* preloader */
 
@@ -35,7 +38,7 @@ img {
 }
 
 a,
-a:hover,
+a:hover
 a:focus {
   text-decoration: none;
 }
@@ -54,6 +57,7 @@ select {
     outline: 0;
   }
 }
+
 
 a:hover {
   color: $primary-color;

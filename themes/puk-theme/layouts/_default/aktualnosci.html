@@ -7,7 +7,7 @@
 
     <div class="card-body">
         <p><i class="ti-bookmark text-primary mr-2"></i>{{ .Params.Category | markdownify }}</p>
-        <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <h3 class="card-title h4"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <p class="mb-0">{{ .Summary | truncate 100 }}</p>
     </div>
 </div>
