@@ -149,3 +149,20 @@
     border-color: $secondary-color !important;
   }
 }
+button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    background: transparent;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.filter-controls li.active button {
+    font-weight: 600;
+ }

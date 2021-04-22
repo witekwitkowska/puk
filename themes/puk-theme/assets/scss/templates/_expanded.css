@@ -210,6 +210,7 @@
 
 
 .click-only {
+  width: 100%;
   background: #ffffff;
   padding: 0px 20px 20px 20px;
   position: relative;

@@ -1,9 +1,9 @@
 <div class="card w-100 cool-frame">
     <div class='card-title'>
-        <h4 class="card-title d-md-table-cell">{{ .Title }}
+        <h3 class="h4 card-title d-md-table-cell">{{ .Title }}
             {{ if .Params.new_line }}
             <span style="color: transparent; line-height: 1.2">Komorze i Rakowo</span>
-            {{ end }}</h4>
+            {{ end }}</h3>
         <div class='d-md-table-cell'>
             <div class="p-1 text-white ml-sm-3"
                  style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/light.png`| relURL}}'); background-size: cover;">
@@ -14,9 +14,9 @@
             </div>
         </div>
     </div>
-    <div class="click-only ">
-        <h5 class="flip-title d-md-table-cell download">Szczegóły</h5>
-    </div>
+    <button class="click-only ">
+        <p class="h5 flip-title d-md-table-cell download">Szczegóły</p>
+    </button>
     <div class='card-flap flap1'>
         <div class='card-description'>
             <ul class='task-list'>

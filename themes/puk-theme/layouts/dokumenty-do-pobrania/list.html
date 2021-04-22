@@ -3,9 +3,10 @@
 <section class="section mb-5">
     <div class="container">
         <div class="row">
+            <h2 aria-label="Dokumenty do pobrania"></h2>
             <div class="col-12">
                 <ul class="list-inline text-center filter-controls mb-5">
-                    <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
+                    <li class="list-inline-item active" data-filter="all"><button class=" m-3 text-uppercase ">{{ i18n "all" }}</button></li>
                     {{ $categories := slice }}
                     {{ $documents := .Resources }}
                     {{ range $documents }}
@@ -14,7 +15,7 @@
                     {{ end }}
                     {{ end }}
                     {{ range sort ( $categories | uniq ) }}
-                    <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}" value="index" >{{ . | humanize }}
+                    <li class="list-inline-item" data-filter="{{ . | urlize }}" value="index" ><button class=" m-3 text-uppercase">{{ . | humanize }}</button>
                     </li>
                     {{ end }}
                 </ul>

@@ -114,7 +114,7 @@
   $(document).ready(function(){
   var zindex = 10;
 
-  $("div.click-only").click(function(e){
+  $("button.click-only").click(function(e){
     e.preventDefault();
 
     var isShowing = false;
@@ -177,9 +177,51 @@
 
       zindex++;
     }
-
   });
 });
+
+$(document).ready(function() {
+    $(".navbar-nav").accessibleDropDown();
+
+
+});
+
+$.fn.accessibleDropDown = function () {
+    var el = $(this);
+    /* Make dropdown menus keyboard accessible */
+
+    $("a", el).focus(function(e) {
+        var focusedElement = $(this).parents("li");
+//        $(document).on('keydown', function(event) {
+//            if(event.which == 13) {
+//                console.log('adding class to ', focusedElement)
+//                focusedElement.addClass("accessible-hover");
+//            }
+//        })
+        focusedElement.addClass("accessible-hover");
+        console.log('focus', $(this));
+        console.log('add class to ', focusedElement);
+    }).blur(function() {
+        console.log('blur', $(this));
+        console.log('remove class from ', $(this).parents('li'));
+        $(this).parents("li").removeClass("accessible-hover");
+
+    });
+};
+
+$( "button" ).click( function(e) {
+			var obj=this;
+			setTimeout(function() { disableCardLinks(e, obj); }, 1000);
+		});
+
+		function disableCardLinks(pEvent, pThis)
+		{
+		    var Cards = $('.filtr-item')
+		    Cards.find('a').attr('tabindex', '0');
+			var hiddenCards = $('.filteredOut');
+            console.log(hiddenCards.find('a'));
+            hiddenCards.find('a').attr('tabindex', '-1');
+		}
 
 
 })(jQuery);

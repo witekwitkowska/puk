@@ -3,7 +3,7 @@
 <!-- harmonogram-odbioru-odpadow -->
 <section class="section">
     <div class="container p-2">
-
+        <h2 aria-label="Harmonogramy wywozu odpadów"></h2>
         <div class="row dashboard-cards">
             {{ range .Data.Pages }}
             <div data-category="{{ .Params.harmonogram | urlize }}" class="col-lg-6 col-sm-12 no-mobile-padding">
@@ -25,7 +25,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="section-title">Aktualności z kategorii Harmonogram</h3>
+                <h2 class="h3 section-title">Aktualności z kategorii Harmonogram</h2>
             </div>
         </div>
         <div class="row justify-content-center">

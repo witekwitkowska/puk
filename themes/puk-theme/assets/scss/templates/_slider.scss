@@ -39,6 +39,7 @@ video {
 
 
   .slick-dots {
+    display: none;
     position: absolute;
     left: 0;
     bottom: -100px;
@@ -49,6 +50,7 @@ video {
       margin: 0 6px;
 
       &.slick-active {
+
         button {
           background: transparent;
         }

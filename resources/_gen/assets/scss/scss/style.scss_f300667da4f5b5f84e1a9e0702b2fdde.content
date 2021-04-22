@@ -47,7 +47,8 @@ h2, .h2 {
     h2, .h2 {
       font-size: 30px; } }
 h3, .h3 {
-  font-size: 25px; }
+  font-size: 25px;
+  font-weight: 700 !important; }
   @media (max-width: 575px) {
     h3, .h3 {
       font-size: 20px; } }
@@ -57,7 +58,9 @@ h4, .h4 {
     h4, .h4 {
       font-size: 18px; } }
 h5, .h5 {
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 700 !important;
+  color: #1e1e4b; }
   @media (max-width: 575px) {
     h5, .h5 {
       font-size: 16px; } }
@@ -167,6 +170,22 @@ h6, .h6 {
     background-color: #182b45 !important;
     border-color: #182b45 !important; }
 
+button {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+.filter-controls li.active button {
+  font-weight: 600; }
+
 body {
   background-color: #fff;
   overflow-x: hidden; }
@@ -174,6 +193,9 @@ body {
 ::selection {
   background: #00c954;
   color: #fff; }
+
+:focus-visible {
+  outline: 3px solid black !important; }
 
 /* preloader */
 .preloader {
@@ -198,7 +220,7 @@ img {
   border: 0; }
 
 a,
-a:hover,
+a:hover
 a:focus {
   text-decoration: none; }
 
@@ -681,7 +703,7 @@ link:focus,
   @media (max-width: 767px) {
     .navbar {
       padding: .5rem 1rem; } }
-  .navbar .dropdown:hover .dropdown-menu {
+  .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown.accessible-hover .dropdown-menu {
     visibility: visible;
     opacity: 1;
     transform: translateY(0);
@@ -759,6 +781,7 @@ video {
     .hero-slider {
       width: 100vw; } }
   .hero-slider .slick-dots {
+    display: none;
     position: absolute;
     left: 0;
     bottom: -100px;
@@ -1172,6 +1195,7 @@ ul.max-3-elems {
   color: #ff3a3a; }
 
 .click-only {
+  width: 100%;
   background: #ffffff;
   padding: 0px 20px 20px 20px;
   position: relative;

@@ -22,7 +22,7 @@ var message=document.myform.message.value;
                  style="background-image: url('{{ .Params.Tile_image | relURL}}'),url('{{`images/tiles/newsletter.png`| relURL}}'); background-size: cover;">
                 <div class="col-md-12 m-auto bg-primary py-5 newsletter-block">
                     <div class="col-lg-10 mr-auto">
-                        <h3 class="text-white">{{ i18n "contact_us" }}</h3>
+                        <h2 class="h3 text-white">{{ i18n "contact_us" }}</h2>
                         <form  name="myform" action="{{ site.Params.contact_form_action | safeURL }}" method="POST" onsubmit="return validateform()">
                             <div class="input-wrapper">
                                 <div class="flexy">
@@ -67,7 +67,7 @@ var message=document.myform.message.value;
                 </div>
                 <!-- Strefa Klienta -->
                 <div class="mt-5 pt-2 col-lg-4 col-sm-8 mb-5 mb-md-0 mx-auto">
-                    <h4 class="text-white mb-5 text-uppercase">Strefa klienta</h4>
+                    <h3 class="h4 text-white mb-5 text-uppercase">Strefa klienta</h3>
                     <ul class="list-unstyled max-3-elems">
                         {{ range site.Menus.footer }}
                         {{ with $.Site.GetPage .Name }}
@@ -79,7 +79,7 @@ var message=document.myform.message.value;
                 <!-- Dokumenty do pobrania -->
                 <div class="mt-5 pt-2 col-lg-4 col-sm-8 mb-5 mb-md-0 mx-auto">
                     {{ with .Site.GetPage "/dokumenty-do-pobrania" }}
-                    <h4 class="text-white mb-5 text-uppercase"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                    <h3 class="h4 text-white mb-5 text-uppercase"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     {{ end }}
                 </div>
             </div>

@@ -13,7 +13,7 @@ aktualnosci_enabled: "True"
 
 ## Cmentarze komunalne ##
 
-##### Internetowy system wyszukiwania osób pochowanych #####
+**Internetowy system wyszukiwania osób pochowanych**
 Kliknij w poniższy link i skorzystaj z naszego systemu, by w prosty sposób sprawdzić miejsce pochówku bliskiej osoby.
 http://bornesulinowo.artlookgallery.com/grobonet/start.php
 
