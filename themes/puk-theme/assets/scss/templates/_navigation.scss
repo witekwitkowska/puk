@@ -46,7 +46,7 @@
 
 .navbar-nav {
   padding-left: 0px;
-  background: $primary-color;
+  background: var(--primary-color);
 
   @include desktop-lg {
     background: $primary-color;
@@ -237,3 +237,16 @@ link:focus,
     }
   }
 }
+
+.accessibility {
+    display: flex;
+    justify-content: center;
+
+    .access-icon {
+        width: 25px;
+        margin-left: 15px;
+    }
+
+}
+
+

@@ -225,3 +225,14 @@ $( "button" ).click( function(e) {
 
 
 })(jQuery);
+
+const html = document.querySelector('html');
+html.dataset.theme = `theme-normal`;
+
+function switchTheme() {
+    if (html.dataset.theme == `theme-normal`) {
+        html.dataset.theme = `theme-accessible`;
+    } else {
+        html.dataset.theme = `theme-normal`;
+    }
+}

@@ -60,7 +60,11 @@
                         {{ end }}
                         {{ end }}
                     </ul>
+                    <div class="accessibility">
+                        <a onclick="switchTheme()" class="change-font-size"><img class="access-icon" src="{{`images/decrease-font-size.svg`| relURL}}"></a>
+                        <a href="#" class="style-switch"><img class="access-icon" src="{{`images/contrast.svg`| relURL}}"></a>
 
+                    </div>
                     <!-- Language List -->
                     {{ if .IsTranslated }}
                     <select class="m-2 border-0" id="select-language" onchange="location = this.value;">

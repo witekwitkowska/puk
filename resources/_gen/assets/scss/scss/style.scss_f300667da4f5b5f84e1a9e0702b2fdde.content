@@ -7,8 +7,20 @@ VERSION:	Versoin Number
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
-/*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+:root[data-theme="theme-normal"] {
+  --primary-color: #0072a3;
+  --text-color: #333333;
+  --bg-color: #fafafa;
+  --component-bg-color: #ffffff; }
+
+:root[data-theme="theme-accessible"] {
+  --primary-color: #49afd9;
+  --text-color: #e3f5fc;
+  --bg-color: #1b2a32;
+  --component-bg-color: #22343c; }
+
+/*  typography */
 Our cou
 html {
   font-family: "Poppins", sans-serif; }
@@ -616,7 +628,7 @@ textarea.form-control {
 
 .navbar-nav {
   padding-left: 0px;
-  background: #00963F; }
+  background: var(--primary-color); }
   @media (max-width: 1200px) {
     .navbar-nav {
       background: #00963F;
@@ -748,6 +760,13 @@ link:focus,
     .navbar .dropdown-item:hover {
       color: #00963F;
       background: transparent; }
+
+.accessibility {
+  display: flex;
+  justify-content: center; }
+  .accessibility .access-icon {
+    width: 25px;
+    margin-left: 15px; }
 
 .hero-section {
   height: 100vh;

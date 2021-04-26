@@ -16,3 +16,33 @@ $gray: #f8f8f8;
 $primary-font: 'Poppins', sans-serif;
 $secondary-font: 'Poppins';
 $icon-font: 'themify';
+
+
+:root[data-theme="theme-normal"] {
+    --primary-color: #0072a3;
+    --text-color: #333333;
+    --bg-color: #fafafa;
+    --component-bg-color: #ffffff;
+}
+
+:root[data-theme="theme-accessible"] {
+    --primary-color: #49afd9;
+    --text-color: #e3f5fc;
+    --bg-color: #1b2a32;
+    --component-bg-color: #22343c;
+}
+
+
+@mixin make-accessible($default-value, $accessible-value, $css-property: color, $css-selector: &) {
+  @if ($css-selector == null) {
+    @warn "No parent css element found";
+  }
+#{$css-property}: $accessible-value;
+@at-root {
+    :global(.accessible-theme) {
+      #{$css-selector} {
+        #{$css-property}: $accessible-value;
+      }
+    }
+  }
+}
