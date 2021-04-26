@@ -50,8 +50,8 @@
                 <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="Ilustracja przedstawiająca animowaną postać otoczoną przez śmieci">
             </div>
             <div class="col-xl-8 col-lg-7">
+                <h2 aria-label="Co można znaleźć na stronie?"></h2>
                 <div class="row feature-blocks bg-gray justify-content-between">
-                    <h2 aria-label="Co można znaleźć na stronie?"></h2>
                     {{ range site.Menus.footer }}
                     {{ with $.Site.GetPage .Name }}
                     {{ if .Params.feature_item}}
