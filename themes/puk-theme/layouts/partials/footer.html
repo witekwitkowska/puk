@@ -76,11 +76,16 @@ var message=document.myform.message.value;
                         {{ end }}
                     </ul>
                 </div>
-                <!-- Dokumenty do pobrania -->
                 <div class="mt-5 pt-2 col-lg-4 col-sm-8 mb-5 mb-md-0 mx-auto">
-                    {{ with .Site.GetPage "/dokumenty-do-pobrania" }}
-                    <h3 class="h4 text-white mb-5 text-uppercase"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    {{ end }}
+                    <h3 class="h4 text-white mb-5 text-uppercase">Dokumenty</h3>
+                    <ul class="list-unstyled">
+                        {{ with .Site.GetPage "/dokumenty-do-pobrania" }}
+                        <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                        {{ with .Site.GetPage "/polityka-prywatnosci" }}
+                        <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    </ul>
                 </div>
             </div>
         </div>
@@ -89,14 +94,14 @@ var message=document.myform.message.value;
     <div class="copyright py-4 bg-footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 text-sm-left text-center">
+                <div class="col-sm-7 text-sm-left text-center">
                     <p class="mb-0">{{ site.Params.copyright | markdownify }}</p>
                 </div>
-                <div class="col-sm-4 text-sm-right text-center">
-                    <ul class="list-inline">
+                <div class="col-sm-5 text-sm-right text-center">
+                    <ul class="list-inline icon-list">
                         {{ range site.Params.social }}
                         <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><img
-                                class="w-50" src="{{ .icon | absURL }}" alt="Link do strony PUK Borne Sulinowo na portalu Biuletyn Informacji Publicznej"></a></li>
+                                class="icon-list-item" src="{{ .icon | absURL }}" ></a></li>
                         {{ end }}
                     </ul>
                 </div>

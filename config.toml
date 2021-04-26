@@ -158,7 +158,11 @@ expire_days = 2
   
 ############################## social site ########################
 [[params.social]]
-title = "bik"
+title = "ePUAP"
+icon = "images/epuap-logo.jpg"
+link = "https://epuap.gov.pl/wps/portal"
+[[params.social]]
+title = "bip"
 icon = "images/bip-logo.png"
 link = "http://puk.bornesulinowo.ibip.pl/public/"
 
@@ -171,5 +175,5 @@ contentDir = "content"
 weight = 1
 home = "Strona Główna"
 # copyright
-copyright = "Copyright &copy; 2020 Przedsiębiorstwo Usług Komunalnych Sp. z o. o. w Bornem Sulinowie"
+copyright = "Copyright &copy; 2020 PUK Sp. z o. o. w Bornem Sulinowie"
 

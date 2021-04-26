@@ -1020,6 +1020,12 @@ ul.max-3-elems {
   margin: 0;
   padding: 0; }
 
+.icon-list {
+  display: flex;
+  justify-content: flex-end; }
+  .icon-list .icon-list-item {
+    height: 2.8em; }
+
 /* /footer */
 .filter-controls li {
   cursor: pointer;

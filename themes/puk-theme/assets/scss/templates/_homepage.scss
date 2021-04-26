@@ -272,4 +272,11 @@ ul.max-3-elems {
 
 }
 
+.icon-list {
+    display: flex;
+    justify-content: flex-end;
+    .icon-list-item {
+        height: 2.8em;
+    }
+}
 /* /footer */
