@@ -1,7 +1,7 @@
 ---
 title: "Teren Gminy Borne Sulinowo"
 draft: false
-download: "gmina-borne-sulinowo.pdf"
+download: "HARMONOGRAM - teren gminy.pdf"
 # meta description
 description : ""
 # harmonogram
