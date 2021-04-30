@@ -1,7 +1,7 @@
 ---
 title: "Rejon II z utrudnionym dojazdem"
 draft: false
-download: "rejon2.pdf"
+download: "HARMONOGRAM - rejon II z utrudnionym dojazdem.pdf"
 # meta description
 description : ""
 # harmonogram
