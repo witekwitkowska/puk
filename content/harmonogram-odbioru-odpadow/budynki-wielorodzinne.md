@@ -1,7 +1,7 @@
 ---
 title: "Borne Sulinowo - budynki wielorodzinne"
 draft: false
-download: "borne-sulinowo-budynki-wielorodzinne.pdf"
+download: "HARMONOGRAM - miasto budynki wielorodzinne.pdf"
 
 # meta description
 description : ""
