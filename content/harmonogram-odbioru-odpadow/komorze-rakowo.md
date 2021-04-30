@@ -2,7 +2,7 @@
 title: "Komorze i Rakowo"
 new_line: "enabled"
 draft: false
-download: "komorze-rakowo.pdf"
+download: "HARMONOGRAM -RakowoKomorze odpady zmieszane.pdf"
 # meta description
 description : ""
 # harmonogram
