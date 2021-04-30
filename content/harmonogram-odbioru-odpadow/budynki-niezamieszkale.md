@@ -1,7 +1,7 @@
 ---
-title: "Borne Sulinowo - budynki niezamieszkałe"
+title: "Borne Sulinowo - nieruchomości niezamieszkałe"
 draft: false
-download: "borne-sulinowo-budynki-niezamieszkale.pdf"
+download: "HARMONOGRAM - miasto nieruchomości niezamieszkałe.pdf"
 # meta description
 description : ""
 # harmonogram
