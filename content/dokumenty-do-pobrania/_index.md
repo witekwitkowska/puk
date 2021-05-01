@@ -10,42 +10,42 @@ feature_item:
 # meta description
 description : ""
 resources:
- - src: borne-sulinowo-budynki-jednorodzinne.pdf
+ - src: HARMONOGRAM - miasto budynki jednorodzinne.pdf
    title: Harmonogram wywozu śmieci dla budynków jednorodzinnych w Bornem Sulinowie (pdf)
    params:
         category: harmonogramy
         order: 5
         
- - src: borne-sulinowo-budynki-wielorodzinne.pdf
+ - src: HARMONOGRAM - miasto budynki wielorodzinne.pdf
    title: Harmonogram wywozu śmieci dla budynków wielorodzinnych w Bornem Sulinowie (pdf)
    params:
         category: harmonogramy
         order: 6
         
- - src: borne-sulinowo-budynki-niezamieszkale.pdf
+ - src: HARMONOGRAM - miasto nieruchomości niezamieszkałe.pdf
    title: Harmonogram wywozu śmieci dla budynków niezamieszkałych w Bornem Sulinowie (pdf)
    params:
         category: harmonogramy
         order: 7
         
- - src: komorze-rakowo.pdf
+ - src: HARMONOGRAM - RakowoKomorze odpady zmieszane.pdf
    title: Harmonogram wywozu śmieci dla Komorza i Rakowa (pdf)
    params:
         category: harmonogramy
         order: 8
- - src: rejon1.pdf
+ - src: HARMONOGRAM - rejon I z utrudnionym dojazdem.pdf
    title: Harmonogram wywozu śmieci dla Rejonu I z utrudnionym dojazdem (pdf)
    params:
         category: harmonogramy
         order: 9
         
- - src: rejon2.pdf
+ - src: HARMONOGRAM - rejon II z utrudnionym dojazdem.pdf
    title: Harmonogram wywozu śmieci dla dla Rejonu II z utrudnionym dojazdem (pdf)
    params:
         category: harmonogramy
         order: 10
         
- - src: gmina-borne-sulinowo.pdf
+ - src: HARMONOGRAM - teren gminy.pdf
    title: Harmonogram wywozu śmieci na terenie gminy Borne Sulinowo (pdf)
    params:
        category: harmonogramy
