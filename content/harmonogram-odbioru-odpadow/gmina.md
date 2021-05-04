@@ -58,5 +58,5 @@ Odpady BIO będą odbierane po telefonicznym zgłoszeniu.
 
 **Odpady komunalne I:** Liszkowo, Nobliny, Łubowo, Strzeszyn, Międzylesie, Piława
 **Odpady komunalne II:** Radacz, Juchowo, Kiełpino, Dąbie, Uniemino, Osiczyn, Śmiadowo, Kłosówka, Krągi, Jeleń, Jelonek, Przyjezierze, Ciemino, Łączno, Silnowo, Dąbrowica
-**Tworzywa sztuczne I + Papier I + Szkło I:** Krągi, Śmiadowo, Dąbrowica, Piława, Międzylesie, Strzeszyn, Łubowo, Rakowo, Komorze, Noblinyt, Liszkowo
+**Tworzywa sztuczne I + Papier I + Szkło I:** Krągi, Śmiadowo, Dąbrowica, Piława, Międzylesie, Strzeszyn, Łubowo, Rakowo, Komorze, Nobliny, Liszkowo
 **Tworzywa sztuczne II + Papier II + Szkło II:** Przyjezierze, Jeleń, Jelonek, Ciemino, Łączno, Osiczyn, Uniemino, Dąbie, Kiełpino, Juchowo, Radacz, Silnowo, Kłosówka
