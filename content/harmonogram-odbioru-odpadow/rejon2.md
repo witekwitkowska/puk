@@ -42,4 +42,4 @@ Odpady BIO będą odbierane po telefonicznym zgłoszeniu.
 
 #### Kogo dotyczy?
 
-Ciemino 55, Grabno, Grzywnik, Kądzielnia, Kucharowo, Kolanowo, Łączno 17,19-22,27-29; Obrąb, Okole, Płytnica, Piława 56,57,59,65; Przyjezierze działki, Radacz 1A,2-11, Silnowo 46, Silnowo ul.Leszczynowa, ul.Sosnowa, ul.Jeziorna
+Ciemino 55, Grabno, Grzywnik, Kądzielnia, Kucharowo, Kolanowo, Łączno 17,19-22,27-29; Obrąb, Okole, Płytnica, Piława 56,57,59,65; Przyjezierze działki, Radacz 1A,5C,2-11, Silnowo 46, Silnowo ul.Leszczynowa, ul.Sosnowa, ul.Jeziorna, Śmiadowo dz.43/4
