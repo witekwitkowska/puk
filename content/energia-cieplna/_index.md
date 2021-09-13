@@ -11,6 +11,9 @@ feature_item:
    icon : "ti-panel" # icon pack : https://themify.me/themify-icons
    content : "Sprawdź aktualną taryfę i dowiedz się jak podpisać umowę na dostawę ciepła."
 
+category: "Energia"
+aktualnosci_enabled: "True"
+
 ---
 
 ## Energia Cieplna 
