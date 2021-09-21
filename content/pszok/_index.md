@@ -13,6 +13,10 @@ feature_item:
    content : "Pozbądź się wygodnie odpadów wielkogabarytowych."
 # type
 type: "pszok"
+# category
+category: "Pszok"
+aktualnosci_enabled: "True"
+
 ---
 ## Czym jest PSZOK?
 PSZOK, czyli Punkt Selektywnej Zbiórki Odpadów Komunalnych to miejsce stworzone dla mieszkańców Gminy Borne Sulinowo, gdzie każdy mieszkaniec może w ramach uiszczanej opłaty za gospodarowanie odpadami komunalnymi, pozostawić nieodpłatnie wymienione poniżej odpady pochodzące z gospodarstw domowych.

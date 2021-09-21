@@ -9,9 +9,8 @@ feature_item:
    icon : "ti-calendar" # icon pack : https://themify.me/themify-icons
    content : "Sprawdź aktualny harmonogram wywozu śmieci na rok 2021/2022."
 # category
-category: "harmonogram"
+category: "Odpady"
 aktualnosci_enabled: "True"
 data_min: "01/05/2021"
 data_max: "30/04/2022"
-
 ---
