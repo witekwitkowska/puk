@@ -85,6 +85,11 @@ hasChildren = true
   name = "ad-wspolnotami-mieszkaniowymi"
   URL = "ad-wspolnotami-mieszkaniowymi"
 
+  [[menu.main]]
+  parent = "Pages"
+  name = "odbior-nieczystosci-cieklych"
+  URL = "odbior-nieczystosci-cieklych"
+
 
 [[menu.main]]
 name = "contact"
@@ -117,6 +122,10 @@ URL = "cmentarze"
 [[menu.footer]]
 name = "PSZOK"
 URL = "pszok"
+
+[[menu.footer]]
+name = "odbior-nieczystosci-cieklych"
+URL = "odbior-nieczystosci-cieklych"
 
 
 #################### default parameters ################################

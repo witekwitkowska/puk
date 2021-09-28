@@ -94,6 +94,9 @@
 - id: energia-cieplna
   translation: energia cieplna
 
+- id: odbior-nieczystosci-cieklych
+  translation: Odbiór nieczystości ciekłych
+
 - id: pszok
   translation: pszok
 

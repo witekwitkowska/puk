@@ -99,8 +99,13 @@ resources:
         category: ws mieszkaniowe
         order: 15
    
- - src: Karta zgłoszenia usługi'18.pdf
+ - src: Karta zgłoszenia usługi 18.pdf
    title: Karta zgłoszenia usługi (pdf)
+   params:
+        category:
+        order:
+ - src: Cennik wywozu nieczystości ciekłych.pdf
+   title: Cennik wywozu nieczystości ciekłych (pdf)
    params:
         category:
         order:
