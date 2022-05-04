@@ -36,5 +36,5 @@ calendar:
     color : "#1bbf02"
 ---
 
-Odpady BIO będą odbierane po telefonicznym zgłoszeniu.
+Odpady BIO będą odbierane po telefonicznym zgłoszeniu. 
 
