@@ -20,4 +20,5 @@ feature_item:
 - soboty w godzinach 6.00-14.00
 
 Szczegółowy regulamin targowiska stałego " Mój Rynek" w Bornem Sulinowie znajdziesz [tutaj]({{< resource "Regulamin_targowiska_stalego_Moj_Rynek.pdf" >}})
+
 Szczegółowy regulamin określający zasady prowadzenia handlu w piątki i soboty przez rolników i ich domowników znajdziesz [tutaj]({{< resource "Regulamin określający zasady handlu w piątki i soboty przez rolników i domowników.pdf" >}})
