@@ -16,6 +16,8 @@ feature_item:
 
 **Targowisko miejskie jest czynne w:**
 - środy w godzinach 6.00-16.00
+- piątki w godzinach 6.00-14.00
 - soboty w godzinach 6.00-14.00
 
-Szczegółowy regulamin targowiska znajdziesz [tutaj]({{< resource "Regulamin_targowiska_stalego_Moj_Rynek.pdf" >}})
+Szczegółowy regulamin targowiska stałego " Mój Rynek" w Bornem Sulinowie znajdziesz [tutaj]({{< resource "Regulamin_targowiska_stalego_Moj_Rynek.pdf" >}})
+Szczegółowy regulamin określający zasady prowadzenia handlu w piątki i soboty przez rolników i ich domowników znajdziesz [tutaj]({{< resource "Regulamin określającyzasady handlu w piątki i soboty przez rolników i domowników.pdf" >}})
