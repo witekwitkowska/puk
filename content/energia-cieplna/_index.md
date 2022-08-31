@@ -18,10 +18,10 @@ aktualnosci_enabled: "True"
 
 ## Energia Cieplna 
 ### Taryfę ciepła obowiązującą 
-od 16.08.2021 r. do 15.09.2022 r. znajdziesz [tutaj.]({{< resource "taryfa-ciepła.pdf" >}})
+**od 16.08.2021 r. do 15.09.2022 r. znajdziesz [tutaj.]({{< resource "taryfa-ciepła.pdf" >}})
 
 ### Taryfę ciepła obowiązującą od 
-16.09.2022 r. znajdziesz [tutaj.]({{< resource "Taryfa.pdf" >}})
+**16.09.2022 r. znajdziesz [tutaj.]({{< resource "Taryfa.pdf" >}})
 |||||
 
 ### Jeżeli chcesz wykonać przyłącze do miejskiej sieci ciepłowniczej: ###
