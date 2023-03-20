@@ -90,6 +90,16 @@ hasChildren = true
   name = "odbior-nieczystosci-cieklych"
   URL = "odbior-nieczystosci-cieklych"
 
+  [[menu.main]]
+  parent = "Pages"
+  name = "niszczenie-dokumentow"
+  URL = "niszczenie-dokumentow"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "utrzymanie-czystosci"
+  URL = "utrzymanie-czystosci"
+
 
 [[menu.main]]
 name = "contact"
@@ -126,6 +136,14 @@ URL = "pszok"
 [[menu.footer]]
 name = "odbior-nieczystosci-cieklych"
 URL = "odbior-nieczystosci-cieklych"
+
+[[menu.footer]]
+name = "niszczenie-dokumentow"
+URL = "niszczenie-dokumentow"
+
+[[menu.footer]]
+name = "utrzymanie-czystosci"
+URL = "utrzymanie-czystosci"
 
 
 #################### default parameters ################################

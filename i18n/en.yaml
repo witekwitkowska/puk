@@ -97,6 +97,12 @@
 - id: odbior-nieczystosci-cieklych
   translation: Odbiór nieczystości ciekłych
 
+- id: niszczenie-dokumentow
+  translation: Niszczenie dokumentów
+
+- id: utrzymanie-czystosci
+  translation: Utrzymanie czystości
+
 - id: pszok
   translation: pszok
 
