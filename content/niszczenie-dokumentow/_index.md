@@ -9,7 +9,7 @@ illustration_alt: ""
 feature_item:
    name : "Niszczenie dokumentow"
    icon : "ti-panel" # icon pack : https://themify.me/themify-icons
-   content : "Sprawdź aktualną taryfę i dowiedz się jak podpisać umowę na dostawę ciepła."
+   content : "Oferujemy profesjonalną usługę niszczenia dokumentów i nośników danych."
 
 category: "Others"
 aktualnosci_enabled: "True"
@@ -17,7 +17,7 @@ aktualnosci_enabled: "True"
 ---
 
 ## Niszczenie dokumentow 
-Przedsiębiorstwo Usług Komunalnych Sp. z o.o. w Borne
+Przedsiębiorstwo Usług Komunalnych Sp. z o.o. w Bornem
 Sulinowie oferuje profesjonalną usługę niszczenia dokumentów i
 nośników danych .
 
@@ -27,13 +27,13 @@ Oferujemy:
  - Załadunek spakowanych dokumentów
  - Transport do siedziby firmy pojazdem monitorowanym
  - Odbiór i ważenie dokumentów przez wyszkolonego pracownika
- - Niszczenie przemysłową niszczarka zgodnie z normą DIN 66399
+ - Niszczenie przemysłową niszczarką zgodnie z normą DIN 66399
  - Wystawienie protokołu zniszczenia dokumentów
  - Wystawienia karty przekazania odpadów w systemie BDO na życzenie klienta
  - Wystawienie kopii certyfikatu niszczarki
 
 Powierzone dokumenty niszczymy bezpiecznie, profesjonalnie i
-ekologicznie, ścinki są belowane a następnie przekazanie do
+ekologicznie, ścinki są belowane a następnie przekazywane do
 instalacji w celu przygotowania do ponownego użycia.
 Cena niszczenia dokumentów jest zależna od:
  - Ilości dokumentów
