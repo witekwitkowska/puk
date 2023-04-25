@@ -40,4 +40,4 @@ Cena niszczenia dokumentów jest zależna od:
  - Miejsca odbioru
  - Załadunku
 
-W przypadku pytań lub niejasności prosimy o kontakt.
+W przypadku pytań lub niejasności prosimy o kontakt pod numerem 94-37-32-907.
