@@ -1,5 +1,5 @@
 ---
-title: "Utrzymanie czystosci"
+title: "Utrzymanie czystości"
 short_name: "Utrzymanie czystosci"
 draft: false
 # page title background image
@@ -7,9 +7,9 @@ bg_image: "images/backgrounds/energia-cieplna.jpg"
 illustration: "images/illustrations/utrzymanie-czystosci.png"
 illustration_alt: ""
 feature_item:
-   name : "Utrzymanie czystosci"
+   name : "Utrzymanie czystości"
    icon : "ti-panel" # icon pack : https://themify.me/themify-icons
-   content : "Zajmujemy sie kompleksowymi uslugami utrzymanie czystosci w budynkach wspolnot mieszkaniowych"
+   content : "Zajmujemy się kompleksowymi usługami utrzymania czystości w budynkach wspólnot mieszkaniowych"
 
 category: "Others"
 aktualnosci_enabled: "True"
@@ -17,24 +17,24 @@ aktualnosci_enabled: "True"
 ---
 
 ## Uslugi utrzymanie czystosci 
-Nasza firma zajmuje sie sprzataniem budynkow wspolnot mieszkaniowych, dlatego pragniemy przedstawic panstwu swoja oferte dotyczaca kompleksowego utrzymania czystosci, pielegnacje ternenow zielonych. Sposob podejscia do naszego klienta odroznia nas od innych firm. Dotychczasowy sukces firmy zawdzieczami dobremu zarzadzaniu i koordynowaniu prac, profesjonalnie przygotowanym pracownikom, rzetelnym dostawcom oraz sugestiom klientow. Osobiscie cenimy sobie profesjonalizm, dokladnosc, rzetelnosc, uczciwosc. Wymagamy tego rowniez od swoich pracownikow, by moc zagwarantowac Panstwu uslugi na jak najwyzszym poziomie. Zachecamy do kontaktu w sprawie wyceny. Gwarantujemy konkurencyjna oferte.
+Nasza firma zajmuje się sprzątaniem budynków wspólnot mieszkaniowych, dlatego pragniemy przedstawić państwu swoją ofertę dotyczącą kompleksowego utrzymania czystości, pielęgnacji ternenów zielonych. Sposób podejścia do naszego klienta odróżnia nas od innych firm. Dotychczasowy sukces firmy zawdzięczamy dobremu zarządzaniu i koordynowaniu prac, profesjonalnie przygotowanym pracownikom, rzetelnym dostawcom oraz sugestiom klientów. Osobiście cenimy sobie profesjonalizm, dokładność, rzetelność i uczciwość. Wymagamy tego również od swoich pracowników, by móc zagwarantować Państwu usługi na jak najwyższym poziomie. Zachęcamy do kontaktu w sprawie wyceny. Gwarantujemy konkurencyjną ofertę.
 
 |||||
 
-Proponowany zakres czynnosci:
+Proponowany zakres czynności:
  - zamiatanie klatek schodowych
  - mycie posadzek na klatce schodowej
- - mycie lamperii, poreczy, balustrad,
+ - mycie lamperii, poręczy, balustrad,
  - zamiatanie korytarzy piwnicznych
- - mycie drzwi wejsciowych do budynku oraz okien na klatkach schodowych
- - zamiatanie chodnika przed wejsciem do budynku oraz placu przy smietniku
- - w okresie zimowym - odsniezanie chodnikow, posypywanie piaskiem i sola,
- - w okresie wiosennym - letnim - koszenie i grabienie trawnikow
+ - mycie drzwi wejściowych do budynku oraz okien na klatkach schodowych
+ - zamiatanie chodnika przed wejściem do budynku oraz placu przy śmietniku
+ - w okresie zimowym - odśnieżanie chodników, posypywanie piaskiem i solą,
+ - w okresie wiosennym - letnim - koszenie i grabienie trawników
 
-Zapewniamy sprzet oraz srodki chemiczne niezbedne do wykonania w/w prac.
+Zapewniamy sprzęt oraz środki chemiczne niezbędne do wykonania w/w prac.
 
-Zleceniodawnca zapenia nieodplatny dostep do gniazd elektrycznych i biezacej wody w ilosciach niezbednych do wykonania prac.
+Zleceniodawca zapewnia nieodpłatny dostęp do gniazd elektrycznych i bieżącej wody w ilościach niezbędnych do wykonania prac.
 
-Oferta jest kalkulowana indywidualnie z dostosowaniem do wymagan zleceniodawcy.
+Oferta jest kalkulowana indywidualnie z dostosowaniem do wymagań zleceniodawcy.
 
 Zapraszamy do skorzystania z naszej oferty.
