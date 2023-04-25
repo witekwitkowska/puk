@@ -16,7 +16,7 @@ aktualnosci_enabled: "True"
 
 ---
 
-## Uslugi utrzymanie czystosci 
+## Usługi utrzymania czystości 
 Nasza firma zajmuje się sprzątaniem budynków wspólnot mieszkaniowych, dlatego pragniemy przedstawić państwu swoją ofertę dotyczącą kompleksowego utrzymania czystości, pielęgnacji ternenów zielonych. Sposób podejścia do naszego klienta odróżnia nas od innych firm. Dotychczasowy sukces firmy zawdzięczamy dobremu zarządzaniu i koordynowaniu prac, profesjonalnie przygotowanym pracownikom, rzetelnym dostawcom oraz sugestiom klientów. Osobiście cenimy sobie profesjonalizm, dokładność, rzetelność i uczciwość. Wymagamy tego również od swoich pracowników, by móc zagwarantować Państwu usługi na jak najwyższym poziomie. Zachęcamy do kontaktu w sprawie wyceny. Gwarantujemy konkurencyjną ofertę.
 
 |||||
