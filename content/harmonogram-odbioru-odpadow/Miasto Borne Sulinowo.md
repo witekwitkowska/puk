@@ -1,7 +1,7 @@
 ---
-title: "Borne Sulinowo  - budynki jednorodzinne"
+title: "Miasto Borne Sulinowo"
 draft: false
-download: "HARMONOGRAM - miasto budynki jednorodzinne.pdf"
+download: "Miasto Borne Sulinowo.pdf"
 # harmonogram
 harmonogram: "Borne Sulinowo"
 # id
