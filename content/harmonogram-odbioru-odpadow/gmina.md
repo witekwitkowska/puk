@@ -7,5 +7,3 @@ description : ""
 # harmonogram
 harmonogram: "Gmina"
 # id
-Id: "gmina-calendar"
-# calendar info
