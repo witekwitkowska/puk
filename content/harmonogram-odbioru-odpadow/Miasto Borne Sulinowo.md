@@ -5,7 +5,7 @@ download: "Miasto Borne Sulinowo.pdf"
 # harmonogram
 harmonogram: "Borne Sulinowo"
 # id
-Id: "budynki-jednorodzinne-calendar"
+Id: "Miasto Borne Sulinowo-calendar"
 # calendar info
 calendar:
 
