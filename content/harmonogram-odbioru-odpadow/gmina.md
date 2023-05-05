@@ -6,4 +6,3 @@ download: "HARMONOGRAM - teren gminy.pdf"
 description : ""
 # harmonogram
 harmonogram: "Gmina"
-# id
