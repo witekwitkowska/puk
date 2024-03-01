@@ -60,4 +60,4 @@ Punkt znajduje się przy ulicy Wodociągowej w Bornem Sulinowie i jest czynny w 
 
 
 **Sprawdź [szczegółowy regulamin]({{< resource "regulamin-PSZOK-wodociągowa.pdf" >}})**
-**oraz [cennik PSZOK.]({{< resource "cennik-odpadów-przyjmowanych-do-PSZOK.pdf" >}})** 
+**oraz [cennik PSZOK.]({{< resource "cennik-odpadów-przyjmowanych-do-PSZOK.pdf" >}})**   
