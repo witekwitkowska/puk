@@ -30,3 +30,5 @@ aktualnosci_enabled: "True"
 - Wypełnij i złóż wniosek o zawarcie umowy na dostawę energii cieplnej wraz z wymaganymi załącznikami.
 - Wypełnij i złóż [wniosek o zamówienie mocy cieplnej.]({{< resource "załącznik-nr-1-do-umowy-wnisoek-o-zamówienie-mocy.pdf" >}})
 - W ciągu 14 dni podpiszemy [umowę.]({{< resource "umowa-sprzedaży-ciepła-wzór.pdf" >}})
+
+[Wskaźnik efektywności energetycznej za rok 2023.]({{< resource "Informacja - wskaźnik efektywności energet -sig.pdf" >}})
