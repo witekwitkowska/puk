@@ -1,6 +1,6 @@
 ---
-title: "Niszczenie dokumentow"
-short_name: "Niszczenie dokumentow"
+title: "Niszczenie dokumentów"
+short_name: "Niszczenie dokumentów"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/energia-cieplna.jpg"
