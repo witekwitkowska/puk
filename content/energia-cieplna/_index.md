@@ -32,6 +32,9 @@ aktualnosci_enabled: "True"
 - W ciągu 14 dni podpiszemy [umowę.]({{< resource "umowa-sprzedaży-ciepła-wzór.pdf" >}})
 
 [Wskaźnik efektywności energetycznej za rok 2023.]({{< resource "Informacja - wskaźnik efektywności energet -sig.pdf" >}})
+
 [Informacja o średnim zużyciu ciepła przez odbiorców w 2023 roku.]({{< resource "Informacja o średnim zużyciu ciepła ciepła_.pdf" >}})
+
 [Informacja techniczna dla odbiorców ciepła za 2023 rok.]({{< resource "Informacja techniczne dla odbiorców_.pdf" >}})
+
 [Sprawozdanie z działań mających na celu osiągnięcie efektywnego energetycznie systemu ciepłowniczego za rok 2023.]({{< resource "sprawozdanie z działań PUK BS -2023.pdf" >}})
