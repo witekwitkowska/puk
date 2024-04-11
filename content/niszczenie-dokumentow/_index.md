@@ -7,7 +7,7 @@ bg_image: "images/backgrounds/energia-cieplna.jpg"
 illustration: "images/illustrations/niszczenie-dokumentow.png"
 illustration_alt: ""
 feature_item:
-   name : "Niszczenie dokumentow"
+   name : "Niszczenie dokumentów"
    icon : "ti-panel" # icon pack : https://themify.me/themify-icons
    content : "Oferujemy profesjonalną usługę niszczenia dokumentów i nośników danych."
 
