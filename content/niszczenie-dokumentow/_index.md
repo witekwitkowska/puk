@@ -16,7 +16,7 @@ aktualnosci_enabled: "True"
 
 ---
 
-## Niszczenie dokumentow 
+## Niszczenie dokumentów 
 Przedsiębiorstwo Usług Komunalnych Sp. z o.o. w Bornem
 Sulinowie oferuje profesjonalną usługę niszczenia dokumentów i
 nośników danych .
