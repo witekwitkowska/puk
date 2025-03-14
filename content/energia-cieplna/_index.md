@@ -19,8 +19,12 @@ aktualnosci_enabled: "True"
 ## Energia Cieplna 
 
 ### Taryfę ciepła obowiązującą od 
-**01.01.2024 r. znajdziesz [tutaj.]({{< resource "Taryfa.pdf" >}})**
+**01.01.2024 r. do 31.03.2025 r. znajdziesz [tutaj.]({{< resource "Taryfa.pdf" >}})**
 |||||
+### Taryfę ciepła obowiązującą od 
+**01.04.2025 r. znajdziesz [tutaj.]({{< resource "Taryfa 2025.pdf" >}})**
+|||||
+
 
 ### Jeżeli chcesz wykonać przyłącze do miejskiej sieci ciepłowniczej: ###
 - Wypełnij i złóż [wniosek o wydanie warunków przyłączenia do miejskiej sieci ciepłowniczej.]({{< resource "Wniosek O WYDANIE WAR CIEPL.doc" >}})
