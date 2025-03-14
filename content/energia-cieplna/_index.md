@@ -25,7 +25,6 @@ aktualnosci_enabled: "True"
 **01.04.2025 r. znajdziesz [tutaj.]({{< resource "Taryfa 2025.pdf" >}})**
 |||||
 
-
 ### Jeżeli chcesz wykonać przyłącze do miejskiej sieci ciepłowniczej: ###
 - Wypełnij i złóż [wniosek o wydanie warunków przyłączenia do miejskiej sieci ciepłowniczej.]({{< resource "Wniosek O WYDANIE WAR CIEPL.doc" >}})
 - Skontktuj się z nami! Opłaty i termin wykonania przyłącza ustalane są indywidualnie.
