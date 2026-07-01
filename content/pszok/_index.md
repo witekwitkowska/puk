@@ -54,7 +54,7 @@ Punkt znajduje się przy ulicy Wodociągowej w Bornem Sulinowie i jest czynny w 
 
 * Zmieszanych odpadów komunalnych;
 * Odpadów zawierających azbest;
-* Części samochodowych, motorowerów, kosiarek spalinowych;
+* Części samochodowych, motorowerów ;
 * Szkła zbrojonego i hartowanego;
 * Padłych zwierząt;
 
